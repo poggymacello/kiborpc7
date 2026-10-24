@@ -1,0 +1,2036 @@
+{
+ "cfg": {
+  "FAST_ETA_ADAPT": true,
+  "FAST_ETA_T_MAX_FRAC": 0.737
+ },
+ "scen": "fan08",
+ "script": "v4/ut_g.py",
+ "rows": [
+  {
+   "T": 121.65000000002533,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5944999999999157,
+   "score": 33.48449999999823,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 1,
+   "strategy": "fast",
+   "wall_s": 12.381553411483765,
+   "fault": false,
+   "max_pos_err": 0.02983246699475561,
+   "max_att_err": 0.607437043956802,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=1deg governor s=0.78): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.14m att=9deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 120.65000000002482,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5978333333332506,
+   "score": 33.554499999998264,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 2,
+   "strategy": "fast",
+   "wall_s": 13.320141792297363,
+   "fault": false,
+   "max_pos_err": 0.01340006391792195,
+   "max_att_err": 1.340570720311292,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.87): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.17m att=3deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 125.45000000002727,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5818333333332424,
+   "score": 33.21849999999809,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 3,
+   "strategy": "fast",
+   "wall_s": 6.8841047286987305,
+   "fault": false,
+   "max_pos_err": 0.020726356789793166,
+   "max_att_err": 0.7818549949943263,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=3deg governor s=0.69): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 129.00000000002765,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.569999999999908,
+   "score": 32.969999999998066,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 4,
+   "strategy": "fast",
+   "wall_s": 13.857618808746338,
+   "fault": false,
+   "max_pos_err": 0.017657779933947793,
+   "max_att_err": 0.9101804362143211,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=5deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 122.00000000002551,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5933333333332482,
+   "score": 33.45999999999821,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 5,
+   "strategy": "fast",
+   "wall_s": 12.866852283477783,
+   "fault": false,
+   "max_pos_err": 0.01986844653719125,
+   "max_att_err": 0.5396626173844263,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=3deg governor s=0.86): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 125.45000000002727,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5818333333332424,
+   "score": 33.21849999999809,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 6,
+   "strategy": "fast",
+   "wall_s": 5.110288858413696,
+   "fault": false,
+   "max_pos_err": 0.018393408620955856,
+   "max_att_err": 0.8953982525759765,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=6deg governor s=0.76): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 111.50000000002014,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.6283333333332664,
+   "score": 34.19499999999859,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 7,
+   "strategy": "fast",
+   "wall_s": 11.579795122146606,
+   "fault": false,
+   "max_pos_err": 0.017144361763792127,
+   "max_att_err": 0.7400414505323855,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 99.00000000001374,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.6699999999999542,
+   "score": 35.06999999999904,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 8,
+   "strategy": "fast",
+   "wall_s": 10.048667192459106,
+   "fault": false,
+   "max_pos_err": 0.02124300446745156,
+   "max_att_err": 0.5280560273847479,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=3deg governor s=0.54): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 120.90000000002495,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.596999999999917,
+   "score": 33.53699999999826,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 9,
+   "strategy": "fast",
+   "wall_s": 5.832045078277588,
+   "fault": false,
+   "max_pos_err": 0.017969473061979407,
+   "max_att_err": 0.6181881389898185,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=2deg governor s=0.71): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 123.7500000000264,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.587499999999912,
+   "score": 33.33749999999815,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 10,
+   "strategy": "fast",
+   "wall_s": 12.64154577255249,
+   "fault": false,
+   "max_pos_err": 0.017075885113603372,
+   "max_att_err": 0.5719785265391213,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=6deg governor s=0.90): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 131.6000000000253,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.561333333333249,
+   "score": 32.78799999999823,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 11,
+   "strategy": "fast",
+   "wall_s": 13.433330774307251,
+   "fault": false,
+   "max_pos_err": 0.018775721382853466,
+   "max_att_err": 0.7054615541781968,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=6deg governor s=0.67): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 142.40000000001547,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5253333333332817,
+   "score": 32.03199999999892,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 12,
+   "strategy": "fast",
+   "wall_s": 8.728437423706055,
+   "fault": false,
+   "max_pos_err": 0.016632851403509345,
+   "max_att_err": 0.5753046373613916,
+   "warns": [
+    "FAST profile softened (leg error pos=0.20m att=1deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (fault: tracking error pos=0.254m att=3.6deg): eta_t=0.33 eta_r=0.24"
+   ]
+  },
+  {
+   "T": 130.5000000000263,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5649999999999125,
+   "score": 32.86499999999816,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 13,
+   "strategy": "fast",
+   "wall_s": 10.3428316116333,
+   "fault": false,
+   "max_pos_err": 0.018667965023755916,
+   "max_att_err": 0.877467190653773,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.73): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 120.45000000002472,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5984999999999177,
+   "score": 33.568499999998274,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 14,
+   "strategy": "fast",
+   "wall_s": 2.083383321762085,
+   "fault": false,
+   "max_pos_err": 0.012469911569023447,
+   "max_att_err": 1.3643929785892208,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.54): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 127.00000000002807,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.576666666666573,
+   "score": 33.10999999999803,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 15,
+   "strategy": "fast",
+   "wall_s": 1.852311372756958,
+   "fault": false,
+   "max_pos_err": 0.017986103696277934,
+   "max_att_err": 0.5373742088740455,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 120.55000000002477,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5981666666665841,
+   "score": 33.56149999999827,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 16,
+   "strategy": "fast",
+   "wall_s": 2.0069637298583984,
+   "fault": false,
+   "max_pos_err": 0.01920889789138744,
+   "max_att_err": 0.6130863722939797,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=9deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 117.85000000002339,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.6071666666665887,
+   "score": 33.75049999999836,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 17,
+   "strategy": "fast",
+   "wall_s": 1.7538321018218994,
+   "fault": false,
+   "max_pos_err": 0.01727880753373528,
+   "max_att_err": 0.690452874103428,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=4deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 114.9500000000219,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.6168333333332603,
+   "score": 33.95349999999846,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 18,
+   "strategy": "fast",
+   "wall_s": 13.203258991241455,
+   "fault": false,
+   "max_pos_err": 0.017801734431125125,
+   "max_att_err": 0.6062931863941742,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 128.05000000002852,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5731666666665716,
+   "score": 33.036499999998,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 19,
+   "strategy": "fast",
+   "wall_s": 8.978446960449219,
+   "fault": false,
+   "max_pos_err": 0.032951022815998834,
+   "max_att_err": 1.1326683211763673,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=6deg governor s=0.84): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 130.45000000002634,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5651666666665789,
+   "score": 32.86849999999816,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 20,
+   "strategy": "fast",
+   "wall_s": 11.38548994064331,
+   "fault": false,
+   "max_pos_err": 0.020586486777867587,
+   "max_att_err": 0.5249498776858399,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=3deg governor s=0.75): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 119.50000000002423,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.601666666666586,
+   "score": 33.63499999999831,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 21,
+   "strategy": "fast",
+   "wall_s": 1.6839191913604736,
+   "fault": false,
+   "max_pos_err": 0.08861742564786054,
+   "max_att_err": 6.056177174472445,
+   "warns": [
+    "FAST profile softened (leg error pos=0.14m att=6deg governor s=0.53): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.23m att=6deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 109.85000000001929,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.633833333333269,
+   "score": 34.31049999999865,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 22,
+   "strategy": "fast",
+   "wall_s": 13.110077619552612,
+   "fault": false,
+   "max_pos_err": 0.02000391700442797,
+   "max_att_err": 0.41642021854737016,
+   "warns": [
+    "FAST profile softened (leg error pos=0.15m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 131.7000000000252,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.560999999999916,
+   "score": 32.78099999999824,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 23,
+   "strategy": "fast",
+   "wall_s": 1.9225597381591797,
+   "fault": false,
+   "max_pos_err": 0.017112472721947124,
+   "max_att_err": 0.523202383780497,
+   "warns": [
+    "FAST profile softened (leg error pos=0.13m att=4deg governor s=0.66): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.16m att=8deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 118.6500000000238,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.6044999999999208,
+   "score": 33.694499999998335,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 24,
+   "strategy": "fast",
+   "wall_s": 14.394867897033691,
+   "fault": false,
+   "max_pos_err": 0.01745622514118057,
+   "max_att_err": 0.5745530272522159,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=8deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 116.20000000002254,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.6126666666665916,
+   "score": 33.86599999999842,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 25,
+   "strategy": "fast",
+   "wall_s": 13.999035120010376,
+   "fault": false,
+   "max_pos_err": 0.01959753554385353,
+   "max_att_err": 0.8922207329031437,
+   "warns": [
+    "FAST profile softened (leg error pos=0.13m att=3deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 138.05000000001942,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5398333333332686,
+   "score": 41.57549999999825,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 1,
+   "strategy": "fast",
+   "wall_s": 16.628546953201294,
+   "fault": false,
+   "max_pos_err": 0.020212367231924537,
+   "max_att_err": 0.6177246128643382,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.78): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 138.7500000000188,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5374999999999375,
+   "score": 41.51249999999831,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 2,
+   "strategy": "fast",
+   "wall_s": 17.540145874023438,
+   "fault": false,
+   "max_pos_err": 0.06723204541858155,
+   "max_att_err": 3.3728253194576276,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=3deg governor s=0.72): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 157.6500000000016,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4744999999999946,
+   "score": 39.81149999999985,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 3,
+   "strategy": "fast",
+   "wall_s": 19.5085768699646,
+   "fault": false,
+   "max_pos_err": 0.018976346502701077,
+   "max_att_err": 0.7276173434543296,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=5deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.11m att=3deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 157.60000000000164,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4746666666666612,
+   "score": 39.81599999999985,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 4,
+   "strategy": "fast",
+   "wall_s": 18.63026237487793,
+   "fault": false,
+   "max_pos_err": 0.017079096543953818,
+   "max_att_err": 0.5856176622532734,
+   "warns": [
+    "FAST profile softened (leg error pos=0.09m att=8deg governor s=0.79): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 155.70000000000337,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4809999999999888,
+   "score": 39.986999999999696,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 5,
+   "strategy": "fast",
+   "wall_s": 4.640702247619629,
+   "fault": false,
+   "max_pos_err": 0.025198837269328575,
+   "max_att_err": 0.9393761655380782,
+   "warns": [
+    "FAST profile softened (leg error pos=0.06m att=8deg governor s=0.77): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.64): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 160.8499999999987,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4638333333333378,
+   "score": 39.52350000000012,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 6,
+   "strategy": "fast",
+   "wall_s": 20.93800973892212,
+   "fault": false,
+   "max_pos_err": 0.010142167821478544,
+   "max_att_err": 0.8563447014139196,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=10deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.11m att=5deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 148.60000000000983,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.504666666666634,
+   "score": 40.62599999999912,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 7,
+   "strategy": "fast",
+   "wall_s": 19.559760093688965,
+   "fault": false,
+   "max_pos_err": 0.018703462764075994,
+   "max_att_err": 0.423963039588251,
+   "warns": [
+    "FAST profile softened (leg error pos=0.13m att=3deg governor s=0.53): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.21m att=5deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 134.50000000002265,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5516666666665913,
+   "score": 41.894999999997964,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 8,
+   "strategy": "fast",
+   "wall_s": 16.381224632263184,
+   "fault": false,
+   "max_pos_err": 0.25487210938860844,
+   "max_att_err": 3.5905988509877003,
+   "warns": [
+    "FAST profile softened (leg error pos=0.25m att=4deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 150.10000000000846,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4996666666666385,
+   "score": 40.49099999999924,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 9,
+   "strategy": "fast",
+   "wall_s": 17.95479655265808,
+   "fault": false,
+   "max_pos_err": 0.02976486617652259,
+   "max_att_err": 1.897235511643692,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=6deg governor s=0.76): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.11m att=5deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 152.50000000000628,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4916666666666458,
+   "score": 40.27499999999944,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 10,
+   "strategy": "fast",
+   "wall_s": 21.133490562438965,
+   "fault": false,
+   "max_pos_err": 0.011470008187281883,
+   "max_att_err": 0.8466264430708554,
+   "warns": [
+    "FAST profile softened (leg error pos=0.15m att=9deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 162.4999999999972,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4583333333333428,
+   "score": 39.375000000000256,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 11,
+   "strategy": "fast",
+   "wall_s": 22.476336002349854,
+   "fault": false,
+   "max_pos_err": 0.017395420072966725,
+   "max_att_err": 0.6802499394804404,
+   "warns": [
+    "FAST profile softened (leg error pos=0.24m att=3deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.13m att=6deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 146.85000000001142,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.510499999999962,
+   "score": 40.78349999999897,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 12,
+   "strategy": "fast",
+   "wall_s": 17.579328536987305,
+   "fault": false,
+   "max_pos_err": 0.011565166823071012,
+   "max_att_err": 0.5103122893525989,
+   "warns": [
+    "FAST profile softened (leg error pos=0.13m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.10m att=4deg governor s=0.73): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 143.3500000000146,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.522166666666618,
+   "score": 41.09849999999869,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 13,
+   "strategy": "fast",
+   "wall_s": 17.767937660217285,
+   "fault": false,
+   "max_pos_err": 0.014787043574365253,
+   "max_att_err": 0.7246920926347361,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=6deg governor s=0.85): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 140.25000000001742,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.532499999999942,
+   "score": 41.377499999998435,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 14,
+   "strategy": "fast",
+   "wall_s": 19.664411067962646,
+   "fault": false,
+   "max_pos_err": 0.022393908127640087,
+   "max_att_err": 1.3065836736901406,
+   "warns": [
+    "FAST profile softened (leg error pos=0.13m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 142.55000000001533,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5248333333332822,
+   "score": 41.17049999999862,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 15,
+   "strategy": "fast",
+   "wall_s": 20.6460177898407,
+   "fault": false,
+   "max_pos_err": 0.0462223560456598,
+   "max_att_err": 2.011353856123632,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=3deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 143.9000000000141,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5203333333332862,
+   "score": 41.04899999999873,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 16,
+   "strategy": "fast",
+   "wall_s": 20.027858018875122,
+   "fault": false,
+   "max_pos_err": 0.06546223797394714,
+   "max_att_err": 2.555587592993995,
+   "warns": [
+    "FAST profile softened (leg error pos=0.18m att=7deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.13m att=6deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 154.65000000000433,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4844999999999855,
+   "score": 40.08149999999961,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 17,
+   "strategy": "fast",
+   "wall_s": 21.576439142227173,
+   "fault": false,
+   "max_pos_err": 0.015792778655822567,
+   "max_att_err": 0.5416003634491812,
+   "warns": [
+    "FAST profile softened (leg error pos=0.18m att=2deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.14m att=9deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 149.4000000000091,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5019999999999696,
+   "score": 40.55399999999918,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 18,
+   "strategy": "fast",
+   "wall_s": 20.805463075637817,
+   "fault": false,
+   "max_pos_err": 0.0104943456398419,
+   "max_att_err": 0.7543660629988574,
+   "warns": [
+    "FAST profile softened (leg error pos=0.15m att=5deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.12m att=9deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 158.2000000000011,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.472666666666663,
+   "score": 39.7619999999999,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 19,
+   "strategy": "fast",
+   "wall_s": 21.28498864173889,
+   "fault": false,
+   "max_pos_err": 0.0175666911052076,
+   "max_att_err": 0.557969832831634,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=4deg governor s=0.66): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.11m att=2deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 148.65000000000978,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5044999999999673,
+   "score": 40.621499999999116,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 20,
+   "strategy": "fast",
+   "wall_s": 19.709258317947388,
+   "fault": false,
+   "max_pos_err": 0.021527588391941663,
+   "max_att_err": 1.001258092317498,
+   "warns": [
+    "FAST profile softened (leg error pos=0.17m att=7deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 140.00000000001765,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5333333333332746,
+   "score": 41.399999999998414,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 21,
+   "strategy": "fast",
+   "wall_s": 15.476166486740112,
+   "fault": false,
+   "max_pos_err": 0.02050168285246492,
+   "max_att_err": 0.8318298859764954,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=6deg governor s=0.79): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 138.15000000001933,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5394999999999355,
+   "score": 41.56649999999826,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 22,
+   "strategy": "fast",
+   "wall_s": 17.659770488739014,
+   "fault": false,
+   "max_pos_err": 0.0193349590536408,
+   "max_att_err": 0.5528694039020055,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=3deg governor s=0.59): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.15m att=6deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 161.44999999999814,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4618333333333395,
+   "score": 39.46950000000017,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 23,
+   "strategy": "fast",
+   "wall_s": 15.630535364151001,
+   "fault": false,
+   "max_pos_err": 0.03401470622175826,
+   "max_att_err": 2.1840524701101107,
+   "warns": [
+    "FAST profile softened (leg error pos=0.16m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.16m att=9deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 142.65000000001524,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5244999999999491,
+   "score": 41.161499999998625,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 24,
+   "strategy": "fast",
+   "wall_s": 6.800252437591553,
+   "fault": false,
+   "max_pos_err": 0.019189576456153035,
+   "max_att_err": 0.6141811549074376,
+   "warns": [
+    "FAST profile softened (leg error pos=0.09m att=8deg governor s=0.76): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 146.05000000001215,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5131666666666261,
+   "score": 40.855499999998905,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 25,
+   "strategy": "fast",
+   "wall_s": 18.13345217704773,
+   "fault": false,
+   "max_pos_err": 0.019322540226857258,
+   "max_att_err": 0.6588403152755161,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=8deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 165.3499999999946,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4488333333333514,
+   "score": 47.8115000000006,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 1,
+   "strategy": "fast",
+   "wall_s": 20.614651918411255,
+   "fault": false,
+   "max_pos_err": 0.017103396976343537,
+   "max_att_err": 0.6819691647383461,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=8deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 157.25000000000196,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.475833333333327,
+   "score": 48.70249999999979,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 2,
+   "strategy": "fast",
+   "wall_s": 16.215253591537476,
+   "fault": false,
+   "max_pos_err": 0.022639486256400474,
+   "max_att_err": 1.2351032546257874,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=3deg governor s=0.69): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 181.44999999997995,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3951666666667335,
+   "score": 46.040500000002204,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 3,
+   "strategy": "fast",
+   "wall_s": 22.23671245574951,
+   "fault": false,
+   "max_pos_err": 0.011096711354869216,
+   "max_att_err": 1.1388958298791192,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.12m att=6deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 167.39999999999273,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4420000000000242,
+   "score": 47.586000000000794,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 4,
+   "strategy": "fast",
+   "wall_s": 17.94461417198181,
+   "fault": false,
+   "max_pos_err": 0.019789417308284638,
+   "max_att_err": 0.6339738341971386,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.54): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 157.30000000000192,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4756666666666602,
+   "score": 48.69699999999979,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 5,
+   "strategy": "fast",
+   "wall_s": 12.875360012054443,
+   "fault": false,
+   "max_pos_err": 0.018348875592408567,
+   "max_att_err": 0.5560067832608653,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=4deg governor s=0.67): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 165.04999999999487,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4498333333333504,
+   "score": 47.844500000000565,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 6,
+   "strategy": "fast",
+   "wall_s": 20.02781891822815,
+   "fault": false,
+   "max_pos_err": 0.018206881105033466,
+   "max_att_err": 0.6158557455304431,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=1deg governor s=0.87): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.14m att=5deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 162.84999999999687,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4571666666666772,
+   "score": 48.08650000000035,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 7,
+   "strategy": "fast",
+   "wall_s": 19.984899759292603,
+   "fault": false,
+   "max_pos_err": 0.03340613164436346,
+   "max_att_err": 1.247804460901822,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=9deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 150.35000000000824,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.498833333333306,
+   "score": 49.4614999999991,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 8,
+   "strategy": "fast",
+   "wall_s": 18.83582305908203,
+   "fault": false,
+   "max_pos_err": 0.10572475961797137,
+   "max_att_err": 4.151356079432519,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=4deg governor s=0.61): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 160.79999999999873,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4640000000000042,
+   "score": 48.31200000000014,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 9,
+   "strategy": "fast",
+   "wall_s": 9.434038877487183,
+   "fault": false,
+   "max_pos_err": 0.010874619376846343,
+   "max_att_err": 1.661958831979957,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 167.7499999999924,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4408333333333587,
+   "score": 47.54750000000084,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 10,
+   "strategy": "fast",
+   "wall_s": 11.860318899154663,
+   "fault": false,
+   "max_pos_err": 0.01791168614670272,
+   "max_att_err": 0.5847863831863604,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=4deg governor s=0.82): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 173.0499999999876,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.423166666666708,
+   "score": 46.964500000001365,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 11,
+   "strategy": "fast",
+   "wall_s": 21.309046268463135,
+   "fault": false,
+   "max_pos_err": 0.018167663883562758,
+   "max_att_err": 0.4200092577426412,
+   "warns": [
+    "FAST profile softened (leg error pos=0.08m att=8deg governor s=0.77): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 159.7499999999997,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4675000000000011,
+   "score": 48.42750000000004,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 12,
+   "strategy": "fast",
+   "wall_s": 7.880991220474243,
+   "fault": false,
+   "max_pos_err": 0.018457632140210765,
+   "max_att_err": 0.5622894445256126,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=8deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 167.99999999999218,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4400000000000261,
+   "score": 47.52000000000086,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 13,
+   "strategy": "fast",
+   "wall_s": 10.656370639801025,
+   "fault": false,
+   "max_pos_err": 0.011335996314807585,
+   "max_att_err": 1.6017676586217167,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=3deg governor s=0.90): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 156.5500000000026,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.478166666666658,
+   "score": 48.779499999999715,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 14,
+   "strategy": "fast",
+   "wall_s": 9.077687978744507,
+   "fault": false,
+   "max_pos_err": 0.023032225765494036,
+   "max_att_err": 0.6874961721092373,
+   "warns": [
+    "FAST profile softened (leg error pos=0.13m att=9deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 160.34999999999914,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.465500000000003,
+   "score": 48.3615000000001,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 15,
+   "strategy": "fast",
+   "wall_s": 3.5375523567199707,
+   "fault": false,
+   "max_pos_err": 0.014115584479771228,
+   "max_att_err": 1.3507057939065237,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=5deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 168.54999999999168,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4381666666666943,
+   "score": 47.459500000000915,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 16,
+   "strategy": "fast",
+   "wall_s": 20.98126721382141,
+   "fault": false,
+   "max_pos_err": 0.02138614949654912,
+   "max_att_err": 0.6286627064043977,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=2deg governor s=0.63): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 168.8499999999914,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4371666666666953,
+   "score": 47.42650000000095,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 17,
+   "strategy": "fast",
+   "wall_s": 21.111583709716797,
+   "fault": false,
+   "max_pos_err": 0.014562796798394803,
+   "max_att_err": 0.8374463077048295,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.69): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 161.89999999999773,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4603333333333408,
+   "score": 48.191000000000244,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 18,
+   "strategy": "fast",
+   "wall_s": 21.083685398101807,
+   "fault": false,
+   "max_pos_err": 0.03050873217939397,
+   "max_att_err": 2.0697351163253583,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.57): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 172.99999999998764,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4233333333333746,
+   "score": 46.97000000000136,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 19,
+   "strategy": "fast",
+   "wall_s": 2.626857280731201,
+   "fault": false,
+   "max_pos_err": 0.013084714457225564,
+   "max_att_err": 1.2122826434093505,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=6deg governor s=0.53): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 174.54999999998623,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4181666666667125,
+   "score": 46.799500000001515,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 20,
+   "strategy": "fast",
+   "wall_s": 15.7943594455719,
+   "fault": false,
+   "max_pos_err": 0.05242637929467877,
+   "max_att_err": 2.109292708619697,
+   "warns": [
+    "FAST profile softened (leg error pos=0.14m att=5deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 172.24999999998832,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4258333333333724,
+   "score": 47.05250000000129,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 21,
+   "strategy": "fast",
+   "wall_s": 21.79674243927002,
+   "fault": false,
+   "max_pos_err": 0.029494852830314434,
+   "max_att_err": 1.5645795871391397,
+   "warns": [
+    "FAST profile softened (leg error pos=0.13m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 169.79999999999055,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4340000000000315,
+   "score": 47.32200000000104,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 22,
+   "strategy": "fast",
+   "wall_s": 17.526819944381714,
+   "fault": false,
+   "max_pos_err": 0.018108675939639007,
+   "max_att_err": 0.5251854020110137,
+   "warns": [
+    "FAST profile softened (leg error pos=0.13m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 170.8499999999896,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4305000000000347,
+   "score": 47.20650000000115,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 23,
+   "strategy": "fast",
+   "wall_s": 21.64958906173706,
+   "fault": false,
+   "max_pos_err": 0.018494240494579775,
+   "max_att_err": 0.5641262846337409,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=4deg governor s=0.75): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 175.9999999999849,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4133333333333837,
+   "score": 46.64000000000166,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 24,
+   "strategy": "fast",
+   "wall_s": 12.731823682785034,
+   "fault": false,
+   "max_pos_err": 0.03295888382216008,
+   "max_att_err": 1.6305233250667783,
+   "warns": [
+    "FAST profile softened (leg error pos=0.28m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.18m att=9deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 160.74999999999878,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4641666666666708,
+   "score": 48.31750000000014,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 25,
+   "strategy": "fast",
+   "wall_s": 19.8736629486084,
+   "fault": false,
+   "max_pos_err": 0.07708152588488529,
+   "max_att_err": 2.093007060503168,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=5deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 197.69999999996517,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.341000000000116,
+   "score": 52.299000000004526,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 1,
+   "strategy": "fast",
+   "wall_s": 3.76629900932312,
+   "fault": false,
+   "max_pos_err": 0.01893398962884014,
+   "max_att_err": 0.4756290829112725,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=5deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.78): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 187.34999999997459,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3755000000000848,
+   "score": 53.644500000003305,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 2,
+   "strategy": "fast",
+   "wall_s": 2.870152711868286,
+   "fault": false,
+   "max_pos_err": 0.022319439276474333,
+   "max_att_err": 0.8225863813979741,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.70): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 194.89999999996772,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3503333333334409,
+   "score": 52.663000000004196,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 3,
+   "strategy": "fast",
+   "wall_s": 16.32892346382141,
+   "fault": false,
+   "max_pos_err": 0.018921847972386757,
+   "max_att_err": 0.9542257766974904,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=9deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 206.8999999999568,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3103333333334772,
+   "score": 51.103000000005615,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 4,
+   "strategy": "fast",
+   "wall_s": 25.006027936935425,
+   "fault": false,
+   "max_pos_err": 0.023080395046948986,
+   "max_att_err": 0.9851817315738228,
+   "warns": [
+    "FAST profile softened (leg error pos=0.24m att=3deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 178.84999999998232,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.4038333333333923,
+   "score": 54.7495000000023,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 5,
+   "strategy": "fast",
+   "wall_s": 22.2736918926239,
+   "fault": false,
+   "max_pos_err": 0.02005370755750209,
+   "max_att_err": 0.9968015589782633,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.53): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 189.79999999997236,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3673333333334254,
+   "score": 53.32600000000359,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 6,
+   "strategy": "fast",
+   "wall_s": 7.018358945846558,
+   "fault": false,
+   "max_pos_err": 0.01657910823839957,
+   "max_att_err": 0.8220340363716255,
+   "warns": [
+    "FAST profile softened (leg error pos=0.19m att=3deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 191.04999999997122,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3631666666667626,
+   "score": 53.16350000000374,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 7,
+   "strategy": "fast",
+   "wall_s": 21.73251748085022,
+   "fault": false,
+   "max_pos_err": 0.04741787287099249,
+   "max_att_err": 3.3687017390520873,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.86): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 199.89999999996317,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3336666666667893,
+   "score": 52.01300000000479,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 8,
+   "strategy": "fast",
+   "wall_s": 27.42949604988098,
+   "fault": false,
+   "max_pos_err": 0.019163887304472552,
+   "max_att_err": 0.4591831645192959,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=9deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 189.8499999999723,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.367166666666759,
+   "score": 53.3195000000036,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 9,
+   "strategy": "fast",
+   "wall_s": 17.419387102127075,
+   "fault": false,
+   "max_pos_err": 0.02656158480468201,
+   "max_att_err": 0.8964578605320915,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 188.89999999997318,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3703333333334227,
+   "score": 53.44300000000349,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 10,
+   "strategy": "fast",
+   "wall_s": 25.68714165687561,
+   "fault": false,
+   "max_pos_err": 0.018582133955024952,
+   "max_att_err": 0.45987613337157607,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=9deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 187.79999999997418,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.374000000000086,
+   "score": 53.58600000000335,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 11,
+   "strategy": "fast",
+   "wall_s": 12.792778491973877,
+   "fault": false,
+   "max_pos_err": 0.028893489287072017,
+   "max_att_err": 1.0543889929115196,
+   "warns": [
+    "FAST profile softened (leg error pos=0.12m att=9deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 192.34999999997004,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3588333333334333,
+   "score": 52.994500000003896,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 12,
+   "strategy": "fast",
+   "wall_s": 15.846786260604858,
+   "fault": false,
+   "max_pos_err": 0.01953699703245955,
+   "max_att_err": 0.4112408449874666,
+   "warns": [
+    "FAST profile softened (leg error pos=0.09m att=8deg governor s=0.69): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 191.99999999997036,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.360000000000099,
+   "score": 53.04000000000386,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 13,
+   "strategy": "fast",
+   "wall_s": 19.177853107452393,
+   "fault": false,
+   "max_pos_err": 0.051359048347842,
+   "max_att_err": 2.3253308868598546,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=8deg governor s=0.59): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 183.599999999978,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3880000000000734,
+   "score": 54.13200000000286,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 14,
+   "strategy": "fast",
+   "wall_s": 3.6600048542022705,
+   "fault": false,
+   "max_pos_err": 0.06041892853320142,
+   "max_att_err": 1.9273242392192234,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.75): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 193.89999999996863,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3536666666667712,
+   "score": 52.79300000000408,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 15,
+   "strategy": "fast",
+   "wall_s": 25.974177360534668,
+   "fault": false,
+   "max_pos_err": 0.013376806835195572,
+   "max_att_err": 0.6143946219310055,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=6deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.11m att=4deg governor s=0.66): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 191.24999999997104,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3625000000000966,
+   "score": 53.13750000000377,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 16,
+   "strategy": "fast",
+   "wall_s": 25.60897731781006,
+   "fault": false,
+   "max_pos_err": 0.02093895894986221,
+   "max_att_err": 0.5810393689420126,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.68): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 186.09999999997572,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3796666666667476,
+   "score": 53.80700000000316,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 17,
+   "strategy": "fast",
+   "wall_s": 3.4449257850646973,
+   "fault": false,
+   "max_pos_err": 0.02160223737951974,
+   "max_att_err": 0.7831009642807895,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=7deg governor s=0.50): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 200.24999999996285,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.332500000000124,
+   "score": 51.96750000000483,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 18,
+   "strategy": "fast",
+   "wall_s": 20.166529655456543,
+   "fault": false,
+   "max_pos_err": 0.0217697619944217,
+   "max_att_err": 0.7834432772010186,
+   "warns": [
+    "FAST profile softened (leg error pos=0.24m att=3deg governor s=0.50): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.13m att=7deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 191.79999999997054,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3606666666667648,
+   "score": 53.066000000003825,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 19,
+   "strategy": "fast",
+   "wall_s": 25.03580951690674,
+   "fault": false,
+   "max_pos_err": 0.016066195181131657,
+   "max_att_err": 0.40992939122620226,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=2deg governor s=0.87): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.15m att=8deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 186.64999999997522,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3778333333334158,
+   "score": 53.73550000000322,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 20,
+   "strategy": "fast",
+   "wall_s": 6.170207977294922,
+   "fault": false,
+   "max_pos_err": 0.014057044397758142,
+   "max_att_err": 1.404370420520331,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=4deg governor s=0.73): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 192.29999999997008,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3590000000000997,
+   "score": 53.001000000003884,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 21,
+   "strategy": "fast",
+   "wall_s": 25.08824133872986,
+   "fault": false,
+   "max_pos_err": 0.04374825647162229,
+   "max_att_err": 1.1805658525873681,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=6deg governor s=0.63): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 199.29999999996372,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3356666666667876,
+   "score": 52.09100000000471,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 22,
+   "strategy": "fast",
+   "wall_s": 19.74054455757141,
+   "fault": false,
+   "max_pos_err": 0.016578049568380594,
+   "max_att_err": 1.155170962631906,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=5deg governor s=0.67): eta_t=0.47 eta_r=0.34",
+    "FAST profile softened (leg error pos=0.13m att=6deg governor s=0.50): eta_t=0.40 eta_r=0.29"
+   ]
+  },
+  {
+   "T": 184.54999999997713,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3848333333334095,
+   "score": 54.00850000000297,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 23,
+   "strategy": "fast",
+   "wall_s": 2.9533722400665283,
+   "fault": false,
+   "max_pos_err": 0.021405026008257312,
+   "max_att_err": 0.450096346816391,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=6deg governor s=0.68): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 185.64999999997613,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3811666666667461,
+   "score": 53.8655000000031,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 24,
+   "strategy": "fast",
+   "wall_s": 7.564980983734131,
+   "fault": false,
+   "max_pos_err": 0.04418731174862037,
+   "max_att_err": 2.5541616963452762,
+   "warns": [
+    "FAST profile softened (leg error pos=0.11m att=5deg governor s=0.73): eta_t=0.47 eta_r=0.34"
+   ]
+  },
+  {
+   "T": 195.7999999999669,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3473333333334436,
+   "score": 52.5460000000043,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 25,
+   "strategy": "fast",
+   "wall_s": 23.51141381263733,
+   "fault": false,
+   "max_pos_err": 0.014256613202654768,
+   "max_att_err": 0.8469736592442368,
+   "warns": [
+    "FAST profile softened (leg error pos=0.10m att=2deg governor s=0.80): eta_t=0.47 eta_r=0.34"
+   ]
+  }
+ ]
+}

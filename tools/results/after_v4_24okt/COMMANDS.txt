@@ -1,0 +1,21 @@
+# v4 (24 Oct 2026) offline Monte Carlo. Same scenarios and seeds as after_v3_23okt (seed0 = 1).
+# Runner: run_mc_v4.py <name> '<json CONFIG overrides>' <scenario> <levels> <n_seeds> [user_template path]
+# (multiprocessing wrapper around tools/offline_sim.simulate(); FAST strategy only).
+# Final v4 code = krpc_user/scripts/user_template.py, MD5 53c94ff7aa3131384b03a0d0724f3eda. The suite rows were produced with MD5 57137a4c2b45df964e3cec508589b307 (suite2 in tuning/sweep_log.txt); the final file only adds the start-at-rest settle step, which is a no-op when the robot starts at rest (always true offline): nominal 100/100 and fan08 80/80 runs re-checked identical (final_check.txt).
+nominal      python run_mc_v4.py v4 '{}' nominal     easy,normal,hard,veryhard 25
+stressA      python run_mc_v4.py v4 '{}' stressA     easy,normal,hard,veryhard 20   (bias 0.005, noise 0.02, delay 0.2, dist 0.003)
+bias3noise3  python run_mc_v4.py v4 '{}' bias3noise3 easy,normal,hard,veryhard 20   (bias 0.006, noise 0.036, dist 0.0045)
+fan08        python run_mc_v4.py v4 '{}' fan08       easy,normal,hard,veryhard 20   (fan_scale 0.8)
+fan07        python run_mc_v4.py v4 '{}' fan07       hard,veryhard 20               (fan_scale 0.7)
+extreme      python run_mc_v4.py v4 '{}' extreme     veryhard 20                    (bias 0.03, noise 0.156, dist 0.02)
+nowrench     python run_mc_v4.py v4 '{}' nowrench    easy,normal,hard,veryhard 10   (ignore_user_wrench)
+delay05      python run_mc_v4.py v4 '{}' delay05     easy,normal,hard,veryhard 20   (nav_delay 0.5)
+identity     python run_mc_v4.py v4off '{"FAST_ETA_ADAPT":false,"FAST_GOV":false}' nominal easy,normal,hard,veryhard 25
+             -> 100/100 runs identical (T, score) to after_v3_23okt/nominal: v4 with both features off == v3
+# tuning/: the sweep that chose the v4 defaults (sweep_log.txt = printed summaries). Names:
+#   oh00 FAST_OVERHEAD_S=0.0 | s65_30, s75_20 fixed eta split | m80, v4m70 report margins 0.8 / 0.7 |
+#   A75/A70/A65 per-leg split with eta_t cap 0.75/0.70/0.65, no governor | A75s10 + FAST_SOFT_POS 0.10 |
+#   G75/G70/G65 per-leg split + reference governor (G75 == v4 default)
+# The A*/G* runs used development copies of user_template.py whose behaviour equals the final file with
+# the CONFIG shown (A* = FAST_GOV off).
+compare_v3_v4.md = per-scenario, per-level mean / p10 / min, v3 vs v4 (same seeds)

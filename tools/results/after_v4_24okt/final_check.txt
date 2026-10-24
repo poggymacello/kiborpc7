@@ -1,0 +1,2 @@
+nominal identical 100 / 100
+fan08 identical 80 / 80

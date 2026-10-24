@@ -1,0 +1,111 @@
+[rospy.client][INFO] 2026-10-23 01:12:57,414: init_node, name[/krpc_user], pid[1530]
+[xmlrpc][INFO] 2026-10-23 01:12:57,415: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 01:12:57,416: Started XML-RPC server [http://krpc-user:44661/]
+[rospy.init][INFO] 2026-10-23 01:12:57,417: ROS Slave URI: [http://krpc-user:44661/]
+[rospy.impl.masterslave][INFO] 2026-10-23 01:12:57,418: _ready: http://krpc-user:44661/
+[rospy.registration][INFO] 2026-10-23 01:12:57,419: Registering with master node http://krpc:11311
+[xmlrpc][INFO] 2026-10-23 01:12:57,419: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-10-23 01:12:57,519: registered with master
+[rospy.rosout][INFO] 2026-10-23 01:12:57,519: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-10-23 01:12:57,536: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-10-23 01:12:57,537: initializing /clock core topic
+[rospy.simtime][INFO] 2026-10-23 01:12:57,539: connected to core topic /clock
+[rospy.internal][INFO] 2026-10-23 01:12:57,558: topic[/clock] adding connection to [http://krpc:45565/], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,585: topic[/event/checkpoint_passed/status] adding connection to [http://krpc-user:38635/], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,591: topic[/event/checkpoint_passed/result] adding connection to [http://krpc-user:38635/], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,594: topic[/ctl/command/status] adding connection to [http://krpc:37143/], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,596: topic[/event/checkpoint_passed/feedback] adding connection to [http://krpc-user:38635/], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,607: topic[/ctl/command/result] adding connection to [http://krpc:37143/], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,607: topic[/ctl/command/feedback] adding connection to [http://krpc:37143/], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,620: topic[/sensor_fusion/navigation] adding connection to [http://krpc:45565/], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,656: topic[/event/checkpoint_passed/goal] adding connection to [/krpc_api_node], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,662: topic[/event/checkpoint_passed/cancel] adding connection to [/krpc_api_node], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,822: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,827: topic[/ctl/wrench] adding connection to [/fsm], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,846: topic[/ctl/command/goal] adding connection to [/ctl_only], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,850: topic[/ctl/command/cancel] adding connection to [/ctl_only], count 0
+[rospy.internal][INFO] 2026-10-23 01:12:57,855: topic[/rosout] adding connection to [/record_rosbag], count 1
+[rospy.internal][INFO] 2026-10-23 01:12:57,865: topic[/ctl/wrench] adding connection to [/record_rosbag], count 1
+[rospy.internal][INFO] 2026-10-23 01:12:58,765: topic[/ctl/command/goal] adding connection to [/record_rosbag], count 1
+[rospy.internal][INFO] 2026-10-23 01:12:58,766: topic[/ctl/command/cancel] adding connection to [/record_rosbag], count 1
+[rospy.internal][INFO] 2026-10-23 01:12:58,770: topic[/event/checkpoint_passed/goal] adding connection to [/record_rosbag], count 1
+[rospy.internal][INFO] 2026-10-23 01:12:58,771: topic[/event/checkpoint_passed/cancel] adding connection to [/record_rosbag], count 1
+[rospy.internal][INFO] 2026-10-23 01:12:59,042: topic[/ib2_user/start] adding connection to [http://krpc:41477/], count 0
+[rosout][INFO] 2026-10-23 01:12:59,046: start id: 0
+[rosout][INFO] 2026-10-23 01:12:59,089: [GaneshaOrbit] checkpoints: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] goal=12 mode=fast
+[rosout][INFO] 2026-10-23 01:12:59,154: [GaneshaOrbit] plan t=0.1s order=[9, 8, 10, 11, 5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=208.7s full=208.7s dropped=[]
+[rosout][INFO] 2026-10-23 01:12:59,160: [GaneshaOrbit] leg -> cp 9 (fast) profile 23.2s predicted 22.2s, elapsed 0.1s
+[rospy.internal][INFO] 2026-10-23 01:13:01,980: topic[/ib2_user/start] removing connection to http://krpc:41477/
+[rosout][INFO] 2026-10-23 01:13:25,463: [GaneshaOrbit] REPORT cp 9 level=3 dist=0.017 cen=1.8 roll=0.0 t=21.3s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:13:25,505: [GaneshaOrbit] plan t=21.3s order=[8, 10, 11, 5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=186.6s full=186.6s dropped=[]
+[rosout][INFO] 2026-10-23 01:13:25,510: [GaneshaOrbit] leg -> cp 8 (fast) profile 29.0s predicted 28.0s, elapsed 21.3s
+[rosout][INFO] 2026-10-23 01:13:56,611: [GaneshaOrbit] REPORT cp 8 level=3 dist=0.022 cen=1.6 roll=0.1 t=48.3s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:13:56,638: [GaneshaOrbit] plan t=48.3s order=[10, 11, 5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=158.7s full=158.7s dropped=[]
+[rosout][INFO] 2026-10-23 01:13:56,641: [GaneshaOrbit] leg -> cp 10 (fast) profile 18.4s predicted 17.1s, elapsed 48.3s
+[rosout][INFO] 2026-10-23 01:14:15,150: [GaneshaOrbit] REPORT cp 10 level=3 dist=0.022 cen=2.4 roll=0.0 t=64.5s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:14:15,172: [GaneshaOrbit] plan t=64.5s order=[11, 5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=141.7s full=141.7s dropped=[]
+[rosout][INFO] 2026-10-23 01:14:15,178: [GaneshaOrbit] leg -> cp 11 (fast) profile 18.9s predicted 17.7s, elapsed 64.5s
+[rosout][INFO] 2026-10-23 01:14:35,968: [GaneshaOrbit] REPORT cp 11 level=3 dist=0.022 cen=1.4 roll=0.1 t=81.1s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:14:35,982: [GaneshaOrbit] plan t=81.1s order=[5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=123.9s full=123.9s dropped=[]
+[rosout][INFO] 2026-10-23 01:14:35,987: [GaneshaOrbit] leg -> cp 5 (fast) profile 20.2s predicted 19.1s, elapsed 81.1s
+[rosout][INFO] 2026-10-23 01:14:58,437: [GaneshaOrbit] REPORT cp 5 level=3 dist=0.030 cen=2.9 roll=0.2 t=99.7s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:14:58,451: [GaneshaOrbit] plan t=99.7s order=[4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=104.9s full=104.9s dropped=[]
+[rosout][INFO] 2026-10-23 01:14:58,458: [GaneshaOrbit] leg -> cp 4 (fast) profile 21.9s predicted 20.8s, elapsed 99.7s
+[rosout][INFO] 2026-10-23 01:15:21,922: [GaneshaOrbit] REPORT cp 4 level=3 dist=0.029 cen=3.1 roll=0.1 t=120.0s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:15:21,931: [GaneshaOrbit] plan t=120.0s order=[3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast'] route=84.4s full=84.4s dropped=[]
+[rosout][INFO] 2026-10-23 01:15:21,938: [GaneshaOrbit] leg -> cp 3 (fast) profile 15.8s predicted 14.6s, elapsed 120.0s
+[rosout][INFO] 2026-10-23 01:15:38,518: [GaneshaOrbit] REPORT cp 3 level=3 dist=0.033 cen=3.2 roll=0.1 t=134.1s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:15:38,526: [GaneshaOrbit] plan t=134.1s order=[2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast'] route=70.1s full=70.1s dropped=[]
+[rosout][INFO] 2026-10-23 01:15:38,530: [GaneshaOrbit] leg -> cp 2 (fast) profile 13.3s predicted 12.2s, elapsed 134.1s
+[rosout][INFO] 2026-10-23 01:15:52,387: [GaneshaOrbit] REPORT cp 2 level=3 dist=0.025 cen=2.7 roll=0.3 t=145.8s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:15:52,394: [GaneshaOrbit] plan t=145.8s order=[1, 7, 6] modes=['fast', 'fast', 'fast'] route=58.1s full=58.1s dropped=[]
+[rosout][INFO] 2026-10-23 01:15:52,400: [GaneshaOrbit] leg -> cp 1 (fast) profile 20.1s predicted 19.1s, elapsed 145.8s
+[rosout][INFO] 2026-10-23 01:16:14,077: [GaneshaOrbit] REPORT cp 1 level=3 dist=0.031 cen=3.0 roll=0.2 t=164.3s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:16:14,083: [GaneshaOrbit] plan t=164.3s order=[7, 6] modes=['fast', 'fast'] route=39.0s full=39.0s dropped=[]
+[rosout][INFO] 2026-10-23 01:16:14,086: [GaneshaOrbit] leg -> cp 7 (fast) profile 8.3s predicted 8.6s, elapsed 164.3s
+[rosout][INFO] 2026-10-23 01:16:22,676: [GaneshaOrbit] REPORT cp 7 level=3 dist=0.013 cen=0.8 roll=1.6 t=171.6s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:16:22,682: [GaneshaOrbit] plan t=171.6s order=[6] modes=['fast'] route=30.4s full=30.4s dropped=[]
+[rosout][INFO] 2026-10-23 01:16:22,685: [GaneshaOrbit] leg -> cp 6 (fast) profile 11.8s predicted 11.5s, elapsed 171.6s
+[rosout][INFO] 2026-10-23 01:16:35,650: [GaneshaOrbit] REPORT cp 6 level=3 dist=0.010 cen=1.3 roll=0.3 t=182.5s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:16:35,654: [GaneshaOrbit] leg -> cp 12 (fast) profile 20.0s predicted 18.9s, elapsed 182.5s
+[rosout][INFO] 2026-10-23 01:16:57,635: [GaneshaOrbit] REPORT cp 12 level=3 dist=0.030 cen=0.4 roll=0.6 t=200.8s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:16:57,656: [GaneshaOrbit] mission_finished sent at t=200.78s (ok=True)
+[rosout][WARNING] 2026-10-23 01:16:57,664: [GaneshaOrbit] SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+[rosout][INFO] 2026-10-23 01:16:57,721: [GaneshaOrbit] SUMMARY time=200.8s reported=12 levels=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+[rosout][INFO] 2026-10-23 01:16:57,724: [GaneshaOrbit]   leg cp9   fast         pred=  22.2s actual=  21.2s level=3
+[rosout][INFO] 2026-10-23 01:16:57,729: [GaneshaOrbit]   leg cp8   fast         pred=  28.0s actual=  27.0s level=3
+[rosout][INFO] 2026-10-23 01:16:57,734: [GaneshaOrbit]   leg cp10  fast         pred=  17.1s actual=  16.2s level=3
+[rosout][INFO] 2026-10-23 01:16:57,737: [GaneshaOrbit]   leg cp11  fast         pred=  17.7s actual=  16.6s level=3
+[rosout][INFO] 2026-10-23 01:16:57,740: [GaneshaOrbit]   leg cp5   fast         pred=  19.1s actual=  18.6s level=3
+[rosout][INFO] 2026-10-23 01:16:57,743: [GaneshaOrbit]   leg cp4   fast         pred=  20.8s actual=  20.3s level=3
+[rosout][INFO] 2026-10-23 01:16:57,746: [GaneshaOrbit]   leg cp3   fast         pred=  14.6s actual=  14.0s level=3
+[rosout][INFO] 2026-10-23 01:16:57,751: [GaneshaOrbit]   leg cp2   fast         pred=  12.2s actual=  11.7s level=3
+[rosout][INFO] 2026-10-23 01:16:57,755: [GaneshaOrbit]   leg cp1   fast         pred=  19.1s actual=  18.5s level=3
+[rosout][INFO] 2026-10-23 01:16:57,757: [GaneshaOrbit]   leg cp7   fast         pred=   8.6s actual=   7.3s level=3
+[rosout][INFO] 2026-10-23 01:16:57,760: [GaneshaOrbit]   leg cp6   fast         pred=  11.5s actual=  10.9s level=3
+[rosout][INFO] 2026-10-23 01:16:57,763: [GaneshaOrbit]   leg cp12  fast         pred=  18.9s actual=  18.3s level=3
+[rosout][WARNING] 2026-10-23 01:16:59,359: [GaneshaOrbit] SAFE STOP (/ib2_user/stop): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+[rosout][INFO] 2026-10-23 01:16:59,440: finish processing
+[rospy.impl.masterslave][INFO] 2026-10-23 01:16:59,895: external shutdown request from [/rosnode]: user request
+[rospy.core][INFO] 2026-10-23 01:16:59,896: signal_shutdown [external shutdown request from [/rosnode]: [user request]]
+[rospy.internal][INFO] 2026-10-23 01:16:59,902: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-10-23 01:16:59,903: topic[/rosout] removing connection to /record_rosbag
+[rospy.internal][INFO] 2026-10-23 01:16:59,904: topic[/ctl/wrench] removing connection to /fsm
+[rospy.internal][INFO] 2026-10-23 01:16:59,905: topic[/ctl/wrench] removing connection to /record_rosbag
+[rospy.internal][INFO] 2026-10-23 01:16:59,906: topic[/ctl/command/goal] removing connection to /ctl_only
+[rospy.internal][INFO] 2026-10-23 01:16:59,906: topic[/ctl/command/goal] removing connection to /record_rosbag
+[rospy.internal][INFO] 2026-10-23 01:16:59,907: topic[/ctl/command/cancel] removing connection to /ctl_only
+[rospy.internal][INFO] 2026-10-23 01:16:59,908: topic[/ctl/command/cancel] removing connection to /record_rosbag
+[rospy.internal][INFO] 2026-10-23 01:16:59,909: topic[/event/checkpoint_passed/goal] removing connection to /krpc_api_node
+[rospy.internal][INFO] 2026-10-23 01:16:59,909: topic[/event/checkpoint_passed/goal] removing connection to /record_rosbag
+[rospy.internal][INFO] 2026-10-23 01:16:59,910: topic[/event/checkpoint_passed/cancel] removing connection to /krpc_api_node
+[rospy.internal][INFO] 2026-10-23 01:16:59,911: topic[/event/checkpoint_passed/cancel] removing connection to /record_rosbag
+[rospy.internal][INFO] 2026-10-23 01:16:59,912: topic[/clock] removing connection to http://krpc:45565/
+[rospy.internal][INFO] 2026-10-23 01:16:59,913: topic[/ctl/command/status] removing connection to http://krpc:37143/
+[rospy.internal][INFO] 2026-10-23 01:16:59,913: topic[/ctl/command/result] removing connection to http://krpc:37143/
+[rospy.internal][INFO] 2026-10-23 01:16:59,915: topic[/ctl/command/feedback] removing connection to http://krpc:37143/
+[rospy.internal][INFO] 2026-10-23 01:16:59,917: topic[/event/checkpoint_passed/status] removing connection to http://krpc-user:38635/
+[rospy.internal][INFO] 2026-10-23 01:16:59,918: topic[/event/checkpoint_passed/result] removing connection to http://krpc-user:38635/
+[rospy.internal][INFO] 2026-10-23 01:16:59,919: topic[/event/checkpoint_passed/feedback] removing connection to http://krpc-user:38635/
+[rospy.internal][INFO] 2026-10-23 01:16:59,919: topic[/sensor_fusion/navigation] removing connection to http://krpc:45565/
+[rospy.core][INFO] 2026-10-23 01:17:00,409: signal_shutdown [atexit]

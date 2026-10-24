@@ -1,0 +1,264 @@
+=== START normal normal_v3_fast Fri Oct 23 08:42:54 SEAST 2026
+ Network krpc7th-simulator_krpc Creating 
+ Network krpc7th-simulator_krpc Created 
+ Container krpc7th-simulator-krpc-user-1 Creating 
+ Container krpc7th-simulator-krpc-1 Creating 
+ Container krpc7th-simulator-krpc-user-1 Created 
+ Container krpc7th-simulator-krpc-1 Created 
+Attaching to krpc-1, krpc-user-1
+ Container krpc7th-simulator-krpc-1 Starting 
+ Container krpc7th-simulator-krpc-user-1 Starting 
+ Container krpc7th-simulator-krpc-user-1 Started 
+krpc-1  | 2026/10/23-01:42:55 [INFO] Waiting NO VNC 5s...
+ Container krpc7th-simulator-krpc-1 Started 
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedResult
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckPoints
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_GsData
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionGoal
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedAction
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedFeedback
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionResult
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_MissionFinished
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_MissionStart
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionFeedback
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedGoal
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_lisp
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_eus
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_eus
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_py
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_cpp
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_py
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_lisp
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_cpp
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target _catkin_empty_exported_target
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target tf_generate_messages_lisp
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target tf_generate_messages_cpp
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target tf_generate_messages_eus
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target tf_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target tf_generate_messages_py
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_py
+krpc-user-1  | [ 90%] Built target krpc_ib2_msgs_generate_messages_nodejs
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_eus
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_lisp
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_cpp
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_py
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages
+krpc-user-1  | [100%] Built target user_template_node
+krpc-user-1  | Base path: /users/catkin_ws
+krpc-user-1  | Source space: /users/catkin_ws/src
+krpc-user-1  | Build space: /users/catkin_ws/build
+krpc-user-1  | Devel space: /users/catkin_ws/devel
+krpc-user-1  | Install space: /users/catkin_ws/install
+krpc-user-1  | ####
+krpc-user-1  | #### Running command: "make cmake_check_build_system" in "/users/catkin_ws/build"
+krpc-user-1  | ####
+krpc-user-1  | ####
+krpc-user-1  | #### Running command: "make -j16 -l16" in "/users/catkin_ws/build"
+krpc-user-1  | ####
+krpc-1       | 2026/10/23-01:43:00 [INFO] Waiting NO VNC done.
+krpc-1       | 2026/10/23-01:43:00 [INFO] Start launcher.
+krpc-1       | 2026/10/23-01:43:00 [INFO] Setting simulation timestamp starts...
+krpc-1       | 2026/10/23-01:43:00 [INFO] Simulation timestamp: 20261023014300
+krpc-1       | 2026/10/23-01:43:00 [INFO] Simulation logs dir: /tmp/share/logs/20261023014300
+krpc-1       | 2026/10/23-01:43:00 [INFO] Setting simulation timestamp has done.
+krpc-1       | 2026/10/23-01:43:00 [INFO] Setting random env starts...
+krpc-1       | 2026/10/23-01:43:01 [INFO] cheat_sheet.json created at: /tmp/share/logs/20261023014300/cheat_sheet.json
+krpc-1       | 2026/10/23-01:43:01 [INFO] cheat_sheet.json updated at: /tmp/share/logs/latest/cheat_sheet.json
+krpc-1       | 2026/10/23-01:43:01 [INFO] Simulation model assets were prepared during Docker image build.
+krpc-1       | 2026/10/23-01:43:01 [INFO] Setting random env has done.
+krpc-1       | 2026/10/23-01:43:01 [INFO] Launching simulation starts...
+krpc-1       | 2026/10/23-01:43:01 [INFO] Waiting for Gazebo server to be ready (timeout=60s)...
+krpc-1       | 2026/10/23-01:43:04 [INFO] Gazebo server is ready (waited 2s)
+krpc-1       | 2026/10/23-01:43:04 [INFO] Waiting for ISS model to be spawned (timeout=60s)...
+krpc-1       | 2026/10/23-01:43:04 [INFO] ISS model is ready (waited 0s)
+krpc-1       | 2026/10/23-01:43:04 [INFO] Waiting for RViz ISS display inputs (timeout=30s)...
+krpc-1       | 2026/10/23-01:43:06 [INFO] RViz ISS display inputs are ready (waited 1s)
+krpc-1       | 2026/10/23-01:43:09 [WARN] base -> iss_body TF was not confirmed yet; continuing because RViz and URDF are ready.
+krpc-1       | 2026/10/23-01:43:09 [INFO] Waiting LAUNCH SIM 30s...
+krpc-1       | 2026/10/23-01:43:39 [INFO] Waiting LAUNCH SIM done.
+krpc-1       | 2026/10/23-01:43:40 [INFO] Launching simulation has done.
+krpc-1       | 2026/10/23-01:43:40 [INFO] Launching judge module starts...
+krpc-1       | 2026/10/23-01:43:40 [INFO] Waiting JUDGE 1s...
+krpc-1       | 2026/10/23-01:43:41 [INFO] Waiting JUDGE done.
+krpc-1       | 2026/10/23-01:43:41 [INFO] Launching judge module has done.
+krpc-1       | 2026/10/23-01:43:41 [INFO] Launching status indicator module starts...
+krpc-1       | 2026/10/23-01:43:41 [INFO] Launching status indicator module has done.
+krpc-1       | 2026/10/23-01:43:41 [INFO] Launching flight recorder module starts...
+krpc-1       | 2026/10/23-01:43:41 [INFO] Launching flight recorder module has done.
+krpc-1       | 2026/10/23-01:43:41 [INFO] Launching recording rosbag starts...
+krpc-1       | 2026/10/23-01:43:41 [INFO] Launching recording rosbag has done.
+krpc-1       | 2026/10/23-01:43:41 [INFO] Unpause
+krpc-1       | 2026/10/23-01:43:41 [INFO] On your mark...
+krpc-1       | 2026/10/23-01:43:42 [INFO] Simulator is ready
+krpc-1       | 2026/10/23-01:43:42 [INFO] Waiting IB2 to be ready...
+krpc-user-1  | Launch unified KRPC (API + user)
+krpc-user-1  | ... logging to /tmp/share/logs/latest/user_programs_logs/ros/1546aa5a-ce83-11f1-abe3-f2c3e3141ac2/roslaunch-02df4f03388f-692.log
+krpc-user-1  | Checking log directory for disk usage. This may take a while.
+krpc-user-1  | Press Ctrl-C to interrupt
+krpc-user-1  | Done checking log file disk usage. Usage is <1GB.
+krpc-user-1  | ]2;/users/catkin_ws/src/krpc_user/launch/krpc_user.launch
+krpc-user-1  | [1mstarted roslaunch server http://krpc-user:39883/[0m
+krpc-user-1  | 
+krpc-user-1  | SUMMARY
+krpc-user-1  | ========
+krpc-user-1  | 
+krpc-user-1  | PARAMETERS
+krpc-user-1  |  * /krpc_api_node/checkpoint_source_path: /tmp/share/logs/l...
+krpc-user-1  |  * /platform_launch/camera_left: False
+krpc-user-1  |  * /platform_launch/camera_right: False
+krpc-user-1  |  * /platform_launch/ctl_only: True
+krpc-user-1  |  * /platform_launch/fsm: True
+krpc-user-1  |  * /platform_launch/sensor_fusion: True
+krpc-user-1  |  * /platform_launch/slam_wrapper: True
+krpc-user-1  |  * /rosdistro: melodic
+krpc-user-1  |  * /rosversion: 1.14.13
+krpc-user-1  | 
+krpc-user-1  | NODES
+krpc-user-1  |   /
+krpc-user-1  |     krpc_api_node (krpc_api_server/krpc_api_node.py)
+krpc-user-1  |     krpc_user (krpc_user/user_template.py)
+krpc-user-1  | 
+krpc-user-1  | [1mROS_MASTER_URI=http://krpc:11311[0m
+krpc-user-1  | ]2;/users/catkin_ws/src/krpc_user/launch/krpc_user.launch http://krpc:11311
+krpc-user-1  | [1mprocess[krpc_api_node-1]: started with pid [709][0m
+krpc-user-1  | [1mprocess[krpc_user-2]: started with pid [710][0m
+krpc-user-1  | [INFO] [/krpc_api_node] [1792719842.845613, 0.000000]: checkpoint source path (parameter): /tmp/share/logs/latest/cheat_sheet.json
+krpc-user-1  | [INFO] [/krpc_api_node] [1792719842.889768, 12.166000]: KrpcApiNode initialized (sim mode)
+krpc-user-1  | [INFO] [/krpc_api_node] [1792719842.893215, 12.167000]: KrpcApiNode started
+krpc-1       | 2026/10/23-01:44:04 [INFO] IB2 is ready
+krpc-1       | 2026/10/23-01:44:04 [INFO] Go
+krpc-1       | 2026/10/23-01:44:04 [INFO] Watchdog starts...
+krpc-1       | 2026/10/23-01:44:04 [INFO] Instance will be shutdown after 600 secs
+krpc-user-1  | [INFO] [/krpc_user] [1792719844.990246, 13.281000]: start id: 0
+krpc-user-1  | [INFO] [/krpc_api_node] [1792719845.013795, 13.295000]: mission_start
+krpc-user-1  | [INFO] [/krpc_api_node] [1792719845.020643, 13.297000]: /gs/data: {"status": "Mission Start"}
+krpc-user-1  | [INFO] [/krpc_api_node] [1792719845.043444, 13.310000]: get_checkpoints
+krpc-user-1  | [INFO] [/krpc_user] [1792719845.047641, 13.313000]: [GaneshaOrbit] checkpoints: [1, 2, 3, 5, 7, 10, 11, 12] goal=12 mode=fast
+krpc-user-1  | [INFO] [/krpc_user] [1792719845.069677, 13.319000]: [GaneshaOrbit] plan t=0.0s order=[11, 10, 5, 3, 2, 1, 7] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=158.6s full=158.6s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792719845.076659, 13.328000]: [GaneshaOrbit] leg -> cp 11 (fast) profile 43.4s predicted 42.8s, elapsed 0.0s
+krpc-user-1  | [WARN] [/krpc_user] [1792719881.257769, 34.602000]: [GaneshaOrbit] FAST profile softened (fault: navigation stale): eta_t=0.39 eta_r=0.28
+krpc-user-1  | [INFO] [/krpc_user] [1792719881.263835, 34.606000]: [GaneshaOrbit] leg -> cp 11 (fast) profile 32.3s predicted 31.2s, elapsed 21.3s
+krpc-user-1  | [WARN] [/krpc_user] [1792719881.276825, 34.610000]: [GaneshaOrbit] switching to SAFE mode (onboard ctl): navigation stale (robot did not respond to /ctl/wrench)
+krpc-user-1  | [INFO] [/krpc_user] [1792719881.282361, 34.616000]: [GaneshaOrbit] leg -> cp 11 (combined) predicted 33.2s, elapsed 21.3s
+krpc-user-1  | [WARN] [/krpc_user] [1792719895.587983, 43.968000]: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+krpc-user-1  | [WARN] [/krpc_user] [1792719895.696557, 44.022000]: [GaneshaOrbit] cp 11 not reported (level=0) to avoid a FAIL
+krpc-user-1  | [INFO] [/krpc_user] [1792719895.714355, 44.029000]: [GaneshaOrbit] plan t=30.7s order=[10, 5, 2, 3, 1, 7] modes=['combined', 'combined', 'combined', 'combined', 'combined', 'combined'] route=213.7s full=213.7s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792719895.722348, 44.039000]: [GaneshaOrbit] leg -> cp 10 (combined) predicted 40.3s, elapsed 30.7s
+krpc-user-1  | [WARN] [/krpc_user] [1792719895.826778, 44.099000]: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+krpc-user-1  | [WARN] [/krpc_user] [1792719895.920185, 44.153000]: [GaneshaOrbit] cp 10 not reported (level=0) to avoid a FAIL
+krpc-user-1  | [INFO] [/krpc_user] [1792719895.931611, 44.158000]: [GaneshaOrbit] plan t=30.9s order=[5, 2, 3, 1, 7] modes=['combined', 'combined', 'combined', 'combined', 'combined'] route=182.2s full=182.2s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792719895.943060, 44.169000]: [GaneshaOrbit] leg -> cp 5 (combined) predicted 38.9s, elapsed 30.9s
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.029978, 44.226000]: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.121185, 44.283000]: [GaneshaOrbit] cp 5 not reported (level=0) to avoid a FAIL
+krpc-user-1  | [INFO] [/krpc_user] [1792719896.132892, 44.289000]: [GaneshaOrbit] plan t=31.0s order=[3, 2, 1, 7] modes=['combined', 'combined', 'combined', 'combined'] route=132.7s full=132.7s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792719896.139061, 44.290000]: [GaneshaOrbit] leg -> cp 3 (combined) predicted 27.9s, elapsed 31.0s
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.241078, 44.344000]: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.360025, 44.403000]: [GaneshaOrbit] cp 3 not reported (level=0) to avoid a FAIL
+krpc-user-1  | [INFO] [/krpc_user] [1792719896.407105, 44.423000]: [GaneshaOrbit] plan t=31.1s order=[2, 1, 7] modes=['combined', 'combined', 'combined'] route=114.5s full=114.5s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792719896.427322, 44.435000]: [GaneshaOrbit] leg -> cp 2 (combined) predicted 30.2s, elapsed 31.1s
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.510481, 44.487000]: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.598164, 44.543000]: [GaneshaOrbit] cp 2 not reported (level=0) to avoid a FAIL
+krpc-user-1  | [INFO] [/krpc_user] [1792719896.610713, 44.550000]: [GaneshaOrbit] plan t=31.2s order=[1, 7] modes=['combined', 'combined'] route=78.8s full=78.8s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792719896.616120, 44.552000]: [GaneshaOrbit] leg -> cp 1 (combined) predicted 32.6s, elapsed 31.3s
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.703103, 44.609000]: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.811768, 44.670000]: [GaneshaOrbit] cp 1 not reported (level=0) to avoid a FAIL
+krpc-user-1  | [INFO] [/krpc_user] [1792719896.830613, 44.678000]: [GaneshaOrbit] plan t=31.4s order=[7] modes=['combined'] route=62.0s full=62.0s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792719896.836432, 44.678000]: [GaneshaOrbit] leg -> cp 7 (combined) predicted 34.4s, elapsed 31.4s
+krpc-user-1  | [WARN] [/krpc_user] [1792719896.948711, 44.735000]: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+krpc-user-1  | [WARN] [/krpc_user] [1792719897.020879, 44.788000]: [GaneshaOrbit] cp 7 not reported (level=0) to avoid a FAIL
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.027913, 44.789000]: [GaneshaOrbit] leg -> cp 12 (combined) predicted 40.4s, elapsed 31.5s
+krpc-user-1  | [WARN] [/krpc_user] [1792719897.122042, 44.846000]: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+krpc-user-1  | [WARN] [/krpc_user] [1792719897.192625, 44.908000]: [GaneshaOrbit] cp 12 not reported (level=0) to avoid a FAIL
+krpc-user-1  | [INFO] [/krpc_api_node] [1792719897.210445, 44.923000]: mission_finished
+krpc-user-1  | [INFO] [/krpc_api_node] [1792719897.223207, 44.930000]: /gs/data: {"status": "Mission Finish"}
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.235511, 44.936000]: [GaneshaOrbit] mission_finished sent at t=31.63s (ok=True)
+krpc-user-1  | [WARN] [/krpc_user] [1792719897.244719, 44.946000]: [GaneshaOrbit] SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.326340, 45.000000]: [GaneshaOrbit] SUMMARY time=31.7s reported=0 levels=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.334698, 45.000000]: [GaneshaOrbit]   leg cp11  fast         pred=  42.8s actual=  21.3s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.339451, 45.000000]: [GaneshaOrbit]   leg cp11  fast         pred=  31.2s actual=   0.0s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.351803, 45.001000]: [GaneshaOrbit]   leg cp11  combined     pred=  33.2s actual=   9.4s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.362673, 45.001000]: [GaneshaOrbit]   leg cp10  combined     pred=  40.3s actual=   0.1s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.374655, 45.010000]: [GaneshaOrbit]   leg cp5   combined     pred=  38.9s actual=   0.1s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.379073, 45.010000]: [GaneshaOrbit]   leg cp3   combined     pred=  27.9s actual=   0.1s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.389196, 45.016000]: [GaneshaOrbit]   leg cp2   combined     pred=  30.2s actual=   0.1s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.395724, 45.019000]: [GaneshaOrbit]   leg cp1   combined     pred=  32.6s actual=   0.1s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.403301, 45.024000]: [GaneshaOrbit]   leg cp7   combined     pred=  34.4s actual=   0.1s level=0
+krpc-user-1  | [INFO] [/krpc_user] [1792719897.409656, 45.028000]: [GaneshaOrbit]   leg cp12  combined     pred=  40.4s actual=   0.1s level=0
+krpc-1       | 2026/10/23-01:44:57 [INFO] Watchdog has done.
+krpc-1       | 2026/10/23-01:44:58 [INFO] Stopping IB2...
+krpc-user-1  | [WARN] [/krpc_user] [1792719898.483834, 45.684000]: [GaneshaOrbit] SAFE STOP (/ib2_user/stop): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+krpc-1       | result: 0
+krpc-user-1  | [INFO] [/krpc_user] [1792719898.588771, 45.729000]: finish processing
+krpc-1       | 2026/10/23-01:44:58 [INFO] Shutting down IB2...
+krpc-1       | killing /krpc_user
+krpc-user-1  | shutdown request: user request
+krpc-1       | killed
+krpc-user-1  | [1m[krpc_user-2] process has finished cleanly
+krpc-user-1  | log file: /tmp/share/logs/latest/user_programs_logs/ros/1546aa5a-ce83-11f1-abe3-f2c3e3141ac2/krpc_user-2*.log[0m
+krpc-1       | 2026/10/23-01:45:00 [INFO] Waiting TERMINATE SIM 10s...
+krpc-1       | 2026/10/23-01:45:10 [INFO] Waiting TERMINATE SIM done.
+krpc-1       | 2026/10/23-01:45:10 [INFO] save_logs starts: /tmp/share/logs/20261023014300
+krpc-user-1  | tail: '/tmp/share/logs/latest/user_programs_logs/ros/krpc_user_console.log' has become inaccessible: No such file or directory
+krpc-1       | 2026/10/23-01:45:11 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:45:13 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:45:22 [INFO] save_logs has done.
+krpc-1       | 2026/10/23-01:45:22 [INFO] End launcher.
+[Kkrpc-1 exited with code 0
+ Compose Stopping Aborting on container exit...
+ Container krpc7th-simulator-krpc-user-1 Stopping 
+ Container krpc7th-simulator-krpc-1 Stopping 
+ Container krpc7th-simulator-krpc-1 Stopped 
+ Container krpc7th-simulator-krpc-user-1 Stopped 
+[Kkrpc-user-1 exited with code 143
+ Container krpc7th-simulator-krpc-1 Stopping 
+ Container krpc7th-simulator-krpc-user-1 Stopping 
+ Container krpc7th-simulator-krpc-user-1 Stopped 
+ Container krpc7th-simulator-krpc-user-1 Removing 
+ Container krpc7th-simulator-krpc-1 Stopped 
+ Container krpc7th-simulator-krpc-1 Removing 
+ Container krpc7th-simulator-krpc-user-1 Removed 
+ Container krpc7th-simulator-krpc-1 Removed 
+ Network krpc7th-simulator_krpc Removing 
+ Network krpc7th-simulator_krpc Removed 
+SIM EXIT 0 Fri Oct 23 08:45:24 SEAST 2026

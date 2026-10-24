@@ -1,0 +1,37 @@
+
+# --- added 2026-10-24 before first push (no data, no envs, no IDs, no secrets) ---
+.venv*/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+sim_work/
+pdk/
+conda-env/
+mamba/
+.env
+.env.*
+*.pem
+*.key
+# raw datasets and large binaries
+*.avi
+*.npz
+*.mat
+*.zip
+*.exe
+*.bag
+# personal identity documents (never on GitHub, even private)
+**/ktp*
+**/ktm*
+**/mbca*
+**/ttd*
+**/*passport*.pdf
+**/*Passport*.pdf
+**/*passport*.jpg
+**/*passport*.png
+**/private/
+vendor/
+# raw simulator logs (large, reproducible)
+**/judge_module_logs/

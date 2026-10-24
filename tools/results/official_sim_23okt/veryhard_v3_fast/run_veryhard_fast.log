@@ -1,0 +1,505 @@
+Fri Oct 23 08:11:50 SEAST 2026
+ Network krpc7th-simulator_krpc Creating 
+ Network krpc7th-simulator_krpc Created 
+ Container krpc7th-simulator-krpc-user-1 Creating 
+ Container krpc7th-simulator-krpc-1 Creating 
+ Container krpc7th-simulator-krpc-user-1 Created 
+ Container krpc7th-simulator-krpc-1 Created 
+Attaching to krpc-1, krpc-user-1
+ Container krpc7th-simulator-krpc-1 Starting 
+ Container krpc7th-simulator-krpc-user-1 Starting 
+ Container krpc7th-simulator-krpc-user-1 Started 
+krpc-1  | 2026/10/23-01:11:51 [INFO] Waiting NO VNC 5s...
+ Container krpc7th-simulator-krpc-1 Started 
+krpc-user-1  | -- The C compiler identification is GNU 7.5.0
+krpc-user-1  | -- The CXX compiler identification is GNU 7.5.0
+krpc-user-1  | -- Check for working C compiler: /usr/bin/cc
+krpc-user-1  | -- Check for working C compiler: /usr/bin/cc -- works
+krpc-user-1  | -- Detecting C compiler ABI info
+krpc-user-1  | -- Detecting C compiler ABI info - done
+krpc-user-1  | -- Detecting C compile features
+krpc-user-1  | -- Detecting C compile features - done
+krpc-user-1  | -- Check for working CXX compiler: /usr/bin/c++
+krpc-user-1  | -- Check for working CXX compiler: /usr/bin/c++ -- works
+krpc-user-1  | -- Detecting CXX compiler ABI info
+krpc-1       | 2026/10/23-01:11:56 [INFO] Waiting NO VNC done.
+krpc-1       | 2026/10/23-01:11:56 [INFO] Start launcher.
+krpc-1       | 2026/10/23-01:11:56 [INFO] Setting simulation timestamp starts...
+krpc-1       | 2026/10/23-01:11:56 [INFO] Simulation timestamp: 20261023011156
+krpc-1       | 2026/10/23-01:11:56 [INFO] Simulation logs dir: /tmp/share/logs/20261023011156
+krpc-1       | 2026/10/23-01:11:56 [INFO] Setting simulation timestamp has done.
+krpc-1       | 2026/10/23-01:11:56 [INFO] Setting random env starts...
+krpc-user-1  | -- Detecting CXX compiler ABI info - done
+krpc-user-1  | -- Detecting CXX compile features
+krpc-1       | 2026/10/23-01:11:56 [INFO] cheat_sheet.json created at: /tmp/share/logs/20261023011156/cheat_sheet.json
+krpc-1       | 2026/10/23-01:11:56 [INFO] cheat_sheet.json updated at: /tmp/share/logs/latest/cheat_sheet.json
+krpc-1       | 2026/10/23-01:11:56 [INFO] Simulation model assets were prepared during Docker image build.
+krpc-1       | 2026/10/23-01:11:56 [INFO] Setting random env has done.
+krpc-1       | 2026/10/23-01:11:56 [INFO] Launching simulation starts...
+krpc-1       | 2026/10/23-01:11:56 [INFO] Waiting for Gazebo server to be ready (timeout=60s)...
+krpc-1       | 2026/10/23-01:11:59 [INFO] Gazebo server is ready (waited 2s)
+krpc-1       | 2026/10/23-01:11:59 [INFO] Waiting for ISS model to be spawned (timeout=60s)...
+krpc-1       | 2026/10/23-01:12:00 [INFO] ISS model is ready (waited 0s)
+krpc-1       | 2026/10/23-01:12:00 [INFO] Waiting for RViz ISS display inputs (timeout=30s)...
+krpc-1       | 2026/10/23-01:12:02 [INFO] RViz ISS display inputs are ready (waited 1s)
+krpc-user-1  | -- Detecting CXX compile features - done
+krpc-user-1  | -- Using CATKIN_DEVEL_PREFIX: /users/catkin_ws/devel
+krpc-user-1  | -- Using CMAKE_PREFIX_PATH: /home/intball/catkin_ws/devel;/opt/ros/melodic;/usr/include/gazebo-9;/opt/ros/melodic/share/gazebo_ros
+krpc-user-1  | -- This workspace overlays: /home/intball/catkin_ws/devel;/opt/ros/melodic
+krpc-user-1  | -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+krpc-user-1  | -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+krpc-user-1  | -- Using Debian Python package layout
+krpc-user-1  | -- Using empy: /usr/bin/empy
+krpc-user-1  | -- Using CATKIN_ENABLE_TESTING: ON
+krpc-user-1  | -- Call enable_testing()
+krpc-user-1  | -- Using CATKIN_TEST_RESULTS_DIR: /users/catkin_ws/build/test_results
+krpc-user-1  | -- Found gtest sources under '/usr/src/googletest': gtests will be built
+krpc-user-1  | -- Found gmock sources under '/usr/src/googletest': gmock will be built
+krpc-user-1  | -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+krpc-user-1  | -- Looking for pthread.h
+krpc-user-1  | -- Looking for pthread.h - found
+krpc-user-1  | -- Looking for pthread_create
+krpc-1       | 2026/10/23-01:12:05 [WARN] base -> iss_body TF was not confirmed yet; continuing because RViz and URDF are ready.
+krpc-1       | 2026/10/23-01:12:05 [INFO] Waiting LAUNCH SIM 30s...
+krpc-user-1  | -- Looking for pthread_create - not found
+krpc-user-1  | -- Looking for pthread_create in pthreads
+krpc-user-1  | -- Looking for pthread_create in pthreads - not found
+krpc-user-1  | -- Looking for pthread_create in pthread
+krpc-user-1  | -- Looking for pthread_create in pthread - found
+krpc-user-1  | -- Found Threads: TRUE  
+krpc-user-1  | -- Using Python nosetests: /usr/bin/nosetests
+krpc-user-1  | -- catkin 0.7.29
+krpc-user-1  | -- BUILD_SHARED_LIBS is on
+krpc-user-1  | -- BUILD_SHARED_LIBS is on
+krpc-user-1  | -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+krpc-user-1  | -- ~~  traversing 3 packages in topological order:
+krpc-user-1  | -- ~~  - krpc_ib2_msgs
+krpc-user-1  | -- ~~  - krpc_api_server
+krpc-user-1  | -- ~~  - krpc_user
+krpc-user-1  | -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+krpc-user-1  | -- +++ processing catkin package: 'krpc_ib2_msgs'
+krpc-user-1  | -- ==> add_subdirectory(krpc_ib2_msgs)
+krpc-user-1  | -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+krpc-user-1  | -- Generating .msg files for action krpc_ib2_msgs/CheckpointPassed /users/catkin_ws/src/krpc_ib2_msgs/action/CheckpointPassed.action
+krpc-user-1  | Generating for action CheckpointPassed
+krpc-user-1  | -- krpc_ib2_msgs: 8 messages, 3 services
+krpc-user-1  | -- +++ processing catkin package: 'krpc_api_server'
+krpc-user-1  | -- ==> add_subdirectory(krpc_api_server)
+krpc-user-1  | -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+krpc-user-1  | -- +++ processing catkin package: 'krpc_user'
+krpc-user-1  | -- ==> add_subdirectory(krpc_user)
+krpc-user-1  | -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+krpc-user-1  | -- Found OpenCV: /usr/local (found version "3.3.1") 
+krpc-user-1  | -- Configuring done
+krpc-user-1  | -- Generating done
+krpc-user-1  | -- Build files have been written to: /users/catkin_ws/build
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_MissionFinished
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedFeedback
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_MissionStart
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedGoal
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedResult
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedAction
+krpc-user-1  | Scanning dependencies of target std_msgs_generate_messages_py
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_GsData
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionGoal
+krpc-user-1  | Scanning dependencies of target std_msgs_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target std_msgs_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionFeedback
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionResult
+krpc-user-1  | Scanning dependencies of target _krpc_ib2_msgs_generate_messages_check_deps_CheckPoints
+krpc-user-1  | Scanning dependencies of target actionlib_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedGoal
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedResult
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedFeedback
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedAction
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_GsData
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_MissionFinished
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionFeedback
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_MissionStart
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckPoints
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionGoal
+krpc-user-1  | [  0%] Built target _krpc_ib2_msgs_generate_messages_check_deps_CheckpointPassedActionResult
+krpc-user-1  | Scanning dependencies of target std_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target std_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target actionlib_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target std_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target actionlib_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target roscpp_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target actionlib_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target actionlib_generate_messages_py
+krpc-user-1  | Scanning dependencies of target roscpp_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target roscpp_generate_messages_py
+krpc-user-1  | Scanning dependencies of target _catkin_empty_exported_target
+krpc-user-1  | Scanning dependencies of target actionlib_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target roscpp_generate_messages_eus
+krpc-user-1  | [  0%] Built target actionlib_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target roscpp_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_cpp
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_lisp
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target tf2_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_lisp
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_py
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_py
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_eus
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_eus
+krpc-user-1  | [  0%] Built target roscpp_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target _catkin_empty_exported_target
+krpc-user-1  | Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target actionlib_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target actionlib_generate_messages_cpp
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target rosgraph_msgs_generate_messages_py
+krpc-user-1  | Scanning dependencies of target platform_msgs_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target geometry_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target tf_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target tf2_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target platform_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target sensor_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target sensor_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target tf_generate_messages_cpp
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target platform_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target tf_generate_messages_lisp
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target rosgraph_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target ib2_msgs_generate_messages_py
+krpc-user-1  | Scanning dependencies of target tf2_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target ib2_msgs_generate_messages_eus
+krpc-user-1  | [  0%] Built target tf_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target tf_generate_messages_eus
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target ib2_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target geometry_msgs_generate_messages_py
+krpc-user-1  | Scanning dependencies of target geometry_msgs_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target sensor_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target tf_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target geometry_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target ib2_msgs_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target platform_msgs_generate_messages_py
+krpc-user-1  | Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target platform_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target ib2_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target tf_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_lisp
+krpc-user-1  | [  0%] Built target geometry_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target tf2_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target platform_msgs_generate_messages_cpp
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target ib2_msgs_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target sensor_msgs_generate_messages_py
+krpc-user-1  | Scanning dependencies of target tf_generate_messages_py
+krpc-user-1  | Scanning dependencies of target tf2_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target tf_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_nodejs
+krpc-user-1  | [  0%] Built target sensor_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target tf_generate_messages_py
+krpc-user-1  | Scanning dependencies of target krpc_ib2_msgs_generate_messages_py
+krpc-user-1  | [  0%] Built target tf2_msgs_generate_messages_py
+krpc-user-1  | Scanning dependencies of target krpc_ib2_msgs_generate_messages_lisp
+krpc-user-1  | Scanning dependencies of target krpc_ib2_msgs_generate_messages_nodejs
+krpc-user-1  | Scanning dependencies of target krpc_ib2_msgs_generate_messages_cpp
+krpc-user-1  | Scanning dependencies of target krpc_ib2_msgs_generate_messages_eus
+krpc-user-1  | [  5%] Generating C++ code from krpc_ib2_msgs/GsData.msg
+krpc-user-1  | [  5%] Generating Lisp code from krpc_ib2_msgs/GsData.msg
+krpc-user-1  | [  5%] Generating Python from MSG krpc_ib2_msgs/GsData
+krpc-user-1  | [ 11%] Generating Javascript code from krpc_ib2_msgs/GsData.msg
+krpc-user-1  | [ 11%] Generating Python from MSG krpc_ib2_msgs/CheckpointPassedAction
+krpc-user-1  | [ 11%] Generating C++ code from krpc_ib2_msgs/CheckpointPassedAction.msg
+krpc-user-1  | [ 11%] Generating Lisp code from krpc_ib2_msgs/CheckpointPassedAction.msg
+krpc-user-1  | [ 25%] Generating C++ code from krpc_ib2_msgs/CheckpointPassedActionGoal.msg
+krpc-user-1  | [ 25%] Generating Lisp code from krpc_ib2_msgs/CheckpointPassedActionResult.msg
+krpc-user-1  | [ 25%] Generating Lisp code from krpc_ib2_msgs/CheckpointPassedActionGoal.msg
+krpc-user-1  | [ 25%] Generating Python from MSG krpc_ib2_msgs/CheckpointPassedActionGoal
+krpc-user-1  | [ 25%] Generating C++ code from krpc_ib2_msgs/CheckpointPassedActionFeedback.msg
+krpc-user-1  | [ 25%] Generating C++ code from krpc_ib2_msgs/CheckpointPassedActionResult.msg
+krpc-user-1  | [ 25%] Generating C++ code from krpc_ib2_msgs/CheckpointPassedGoal.msg
+krpc-user-1  | [ 25%] Generating Python from MSG krpc_ib2_msgs/CheckpointPassedActionResult
+krpc-user-1  | [ 26%] Generating EusLisp code from krpc_ib2_msgs/GsData.msg
+krpc-user-1  | [ 30%] Generating Lisp code from krpc_ib2_msgs/CheckpointPassedActionFeedback.msg
+krpc-user-1  | [ 31%] Generating Python from MSG krpc_ib2_msgs/CheckpointPassedActionFeedback
+krpc-user-1  | [ 36%] Generating Javascript code from krpc_ib2_msgs/CheckpointPassedAction.msg
+krpc-user-1  | [ 36%] Generating C++ code from krpc_ib2_msgs/CheckpointPassedResult.msg
+krpc-user-1  | [ 36%] Generating Javascript code from krpc_ib2_msgs/CheckpointPassedActionGoal.msg
+krpc-user-1  | [ 36%] Generating C++ code from krpc_ib2_msgs/CheckpointPassedFeedback.msg
+krpc-user-1  | [ 41%] Generating Javascript code from krpc_ib2_msgs/CheckpointPassedActionResult.msg
+krpc-user-1  | [ 43%] Generating EusLisp code from krpc_ib2_msgs/CheckpointPassedAction.msg
+krpc-user-1  | [ 43%] Generating Python from MSG krpc_ib2_msgs/CheckpointPassedGoal
+krpc-user-1  | [ 43%] Generating Python from MSG krpc_ib2_msgs/CheckpointPassedResult
+krpc-user-1  | [ 46%] Generating Javascript code from krpc_ib2_msgs/CheckpointPassedActionFeedback.msg
+krpc-user-1  | [ 46%] Generating Python from MSG krpc_ib2_msgs/CheckpointPassedFeedback
+krpc-user-1  | [ 48%] Generating Python code from SRV krpc_ib2_msgs/CheckPoints
+krpc-user-1  | [ 51%] Generating EusLisp code from krpc_ib2_msgs/CheckpointPassedActionGoal.msg
+krpc-user-1  | [ 51%] Generating Lisp code from krpc_ib2_msgs/CheckpointPassedGoal.msg
+krpc-user-1  | [ 53%] Generating EusLisp code from krpc_ib2_msgs/CheckpointPassedActionResult.msg
+krpc-user-1  | [ 56%] Generating Javascript code from krpc_ib2_msgs/CheckpointPassedResult.msg
+krpc-user-1  | [ 56%] Generating Javascript code from krpc_ib2_msgs/CheckpointPassedGoal.msg
+krpc-user-1  | [ 58%] Generating C++ code from krpc_ib2_msgs/CheckPoints.srv
+krpc-user-1  | [ 60%] Generating EusLisp code from krpc_ib2_msgs/CheckpointPassedActionFeedback.msg
+krpc-user-1  | [ 63%] Generating C++ code from krpc_ib2_msgs/MissionStart.srv
+krpc-user-1  | [ 63%] Generating Javascript code from krpc_ib2_msgs/CheckpointPassedFeedback.msg
+krpc-user-1  | [ 65%] Generating Javascript code from krpc_ib2_msgs/CheckPoints.srv
+krpc-user-1  | [ 66%] Generating Python code from SRV krpc_ib2_msgs/MissionStart
+krpc-user-1  | [ 70%] Generating Python code from SRV krpc_ib2_msgs/MissionFinished
+krpc-user-1  | [ 70%] Generating C++ code from krpc_ib2_msgs/MissionFinished.srv
+krpc-user-1  | [ 73%] Generating EusLisp code from krpc_ib2_msgs/CheckpointPassedGoal.msg
+krpc-user-1  | [ 73%] Generating Lisp code from krpc_ib2_msgs/CheckpointPassedResult.msg
+krpc-user-1  | [ 80%] Generating Lisp code from krpc_ib2_msgs/CheckpointPassedFeedback.msg
+krpc-user-1  | [ 80%] Generating Javascript code from krpc_ib2_msgs/MissionStart.srv
+krpc-user-1  | [ 80%] Generating EusLisp code from krpc_ib2_msgs/CheckpointPassedFeedback.msg
+krpc-user-1  | [ 80%] Generating EusLisp code from krpc_ib2_msgs/CheckpointPassedResult.msg
+krpc-user-1  | [ 81%] Generating Javascript code from krpc_ib2_msgs/MissionFinished.srv
+krpc-user-1  | [ 83%] Generating Lisp code from krpc_ib2_msgs/CheckPoints.srv
+krpc-user-1  | [ 85%] Generating EusLisp code from krpc_ib2_msgs/CheckPoints.srv
+krpc-user-1  | [ 90%] Generating Lisp code from krpc_ib2_msgs/MissionStart.srv
+krpc-user-1  | [ 90%] Generating Lisp code from krpc_ib2_msgs/MissionFinished.srv
+krpc-user-1  | [ 90%] Generating EusLisp code from krpc_ib2_msgs/MissionStart.srv
+krpc-user-1  | [ 93%] Generating EusLisp manifest code for krpc_ib2_msgs
+krpc-user-1  | [ 93%] Generating EusLisp code from krpc_ib2_msgs/MissionFinished.srv
+krpc-user-1  | [ 96%] Generating Python msg __init__.py for krpc_ib2_msgs
+krpc-user-1  | [ 96%] Generating Python srv __init__.py for krpc_ib2_msgs
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_cpp
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_nodejs
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_lisp
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_py
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages_eus
+krpc-user-1  | Scanning dependencies of target krpc_ib2_msgs_generate_messages
+krpc-user-1  | [ 96%] Built target krpc_ib2_msgs_generate_messages
+krpc-user-1  | Scanning dependencies of target user_template_node
+krpc-user-1  | [ 98%] Building CXX object krpc_user/CMakeFiles/user_template_node.dir/src/user_template_node.cpp.o
+krpc-1       | 2026/10/23-01:12:34 [INFO] Waiting LAUNCH SIM done.
+krpc-1       | 2026/10/23-01:12:34 [INFO] Launching simulation has done.
+krpc-1       | 2026/10/23-01:12:34 [INFO] Launching judge module starts...
+krpc-1       | 2026/10/23-01:12:34 [INFO] Waiting JUDGE 1s...
+krpc-user-1  | [100%] Linking CXX executable /users/catkin_ws/devel/lib/krpc_user/user_template_node
+krpc-1       | 2026/10/23-01:12:35 [INFO] Waiting JUDGE done.
+krpc-1       | 2026/10/23-01:12:35 [INFO] Launching judge module has done.
+krpc-1       | 2026/10/23-01:12:36 [INFO] Launching status indicator module starts...
+krpc-1       | 2026/10/23-01:12:36 [INFO] Launching status indicator module has done.
+krpc-1       | 2026/10/23-01:12:36 [INFO] Launching flight recorder module starts...
+krpc-1       | 2026/10/23-01:12:36 [INFO] Launching flight recorder module has done.
+krpc-1       | 2026/10/23-01:12:36 [INFO] Launching recording rosbag starts...
+krpc-1       | 2026/10/23-01:12:36 [INFO] Launching recording rosbag has done.
+krpc-1       | 2026/10/23-01:12:36 [INFO] Unpause
+krpc-1       | 2026/10/23-01:12:36 [INFO] On your mark...
+krpc-1       | 2026/10/23-01:12:36 [INFO] Simulator is ready
+krpc-1       | 2026/10/23-01:12:36 [INFO] Waiting IB2 to be ready...
+krpc-user-1  | [100%] Built target user_template_node
+krpc-user-1  | Base path: /users/catkin_ws
+krpc-user-1  | Source space: /users/catkin_ws/src
+krpc-user-1  | Build space: /users/catkin_ws/build
+krpc-user-1  | Devel space: /users/catkin_ws/devel
+krpc-user-1  | Install space: /users/catkin_ws/install
+krpc-user-1  | ####
+krpc-user-1  | #### Running command: "cmake /users/catkin_ws/src -DCATKIN_DEVEL_PREFIX=/users/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/users/catkin_ws/install -G Unix Makefiles" in "/users/catkin_ws/build"
+krpc-user-1  | ####
+krpc-user-1  | ####
+krpc-user-1  | #### Running command: "make -j16 -l16" in "/users/catkin_ws/build"
+krpc-user-1  | ####
+krpc-user-1  | Launch unified KRPC (API + user)
+krpc-user-1  | ... logging to /tmp/share/logs/latest/user_programs_logs/ros/bdc702f6-ce7e-11f1-9673-468ee97462e7/roslaunch-4730943aeb32-1512.log
+krpc-user-1  | Checking log directory for disk usage. This may take a while.
+krpc-user-1  | Press Ctrl-C to interrupt
+krpc-user-1  | Done checking log file disk usage. Usage is <1GB.
+krpc-user-1  | ]2;/users/catkin_ws/src/krpc_user/launch/krpc_user.launch
+krpc-user-1  | [1mstarted roslaunch server http://krpc-user:42583/[0m
+krpc-user-1  | 
+krpc-user-1  | SUMMARY
+krpc-user-1  | ========
+krpc-user-1  | 
+krpc-user-1  | PARAMETERS
+krpc-user-1  |  * /krpc_api_node/checkpoint_source_path: /tmp/share/logs/l...
+krpc-user-1  |  * /platform_launch/camera_left: False
+krpc-user-1  |  * /platform_launch/camera_right: False
+krpc-user-1  |  * /platform_launch/ctl_only: True
+krpc-user-1  |  * /platform_launch/fsm: True
+krpc-user-1  |  * /platform_launch/sensor_fusion: True
+krpc-user-1  |  * /platform_launch/slam_wrapper: True
+krpc-user-1  |  * /rosdistro: melodic
+krpc-user-1  |  * /rosversion: 1.14.13
+krpc-user-1  | 
+krpc-user-1  | NODES
+krpc-user-1  |   /
+krpc-user-1  |     krpc_api_node (krpc_api_server/krpc_api_node.py)
+krpc-user-1  |     krpc_user (krpc_user/user_template.py)
+krpc-user-1  | 
+krpc-user-1  | [1mROS_MASTER_URI=http://krpc:11311[0m
+krpc-user-1  | ]2;/users/catkin_ws/src/krpc_user/launch/krpc_user.launch http://krpc:11311
+krpc-user-1  | [1mprocess[krpc_api_node-1]: started with pid [1529][0m
+krpc-user-1  | [1mprocess[krpc_user-2]: started with pid [1530][0m
+krpc-user-1  | [INFO] [/krpc_api_node] [1792717977.474680, 0.000000]: checkpoint source path (parameter): /tmp/share/logs/latest/cheat_sheet.json
+krpc-user-1  | [INFO] [/krpc_api_node] [1792717977.503316, 15.927000]: KrpcApiNode initialized (sim mode)
+krpc-user-1  | [INFO] [/krpc_api_node] [1792717977.506377, 15.930000]: KrpcApiNode started
+krpc-1       | 2026/10/23-01:12:58 [INFO] IB2 is ready
+krpc-1       | 2026/10/23-01:12:58 [INFO] Go
+krpc-1       | 2026/10/23-01:12:58 [INFO] Watchdog starts...
+krpc-1       | 2026/10/23-01:12:58 [INFO] Instance will be shutdown after 600 secs
+krpc-user-1  | [INFO] [/krpc_user] [1792717979.046412, 17.006000]: start id: 0
+krpc-user-1  | [INFO] [/krpc_api_node] [1792717979.059924, 17.016000]: mission_start
+krpc-user-1  | [INFO] [/krpc_api_node] [1792717979.063958, 17.020000]: /gs/data: {"status": "Mission Start"}
+krpc-user-1  | [INFO] [/krpc_api_node] [1792717979.082336, 17.033000]: get_checkpoints
+krpc-user-1  | [INFO] [/krpc_user] [1792717979.090093, 17.038000]: [GaneshaOrbit] checkpoints: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] goal=12 mode=fast
+krpc-user-1  | [INFO] [/krpc_user] [1792717979.154355, 17.075000]: [GaneshaOrbit] plan t=0.1s order=[9, 8, 10, 11, 5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=208.7s full=208.7s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792717979.160108, 17.092000]: [GaneshaOrbit] leg -> cp 9 (fast) profile 23.2s predicted 22.2s, elapsed 0.1s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718005.451339, 38.292000]: checkpoint_passed start: 9
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718005.457213, 38.299000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 9}
+krpc-user-1  | [INFO] [/krpc_user] [1792718005.463692, 38.303000]: [GaneshaOrbit] REPORT cp 9 level=3 dist=0.017 cen=1.8 roll=0.0 t=21.3s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718005.505227, 38.327000]: [GaneshaOrbit] plan t=21.3s order=[8, 10, 11, 5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=186.6s full=186.6s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718005.510673, 38.341000]: [GaneshaOrbit] leg -> cp 8 (fast) profile 29.0s predicted 28.0s, elapsed 21.3s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718036.594594, 65.322000]: checkpoint_passed start: 8
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718036.605207, 65.330000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 8}
+krpc-user-1  | [INFO] [/krpc_user] [1792718036.611456, 65.338000]: [GaneshaOrbit] REPORT cp 8 level=3 dist=0.022 cen=1.6 roll=0.1 t=48.3s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718036.638393, 65.342000]: [GaneshaOrbit] plan t=48.3s order=[10, 11, 5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=158.7s full=158.7s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718036.642139, 65.366000]: [GaneshaOrbit] leg -> cp 10 (fast) profile 18.4s predicted 17.1s, elapsed 48.3s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718055.139480, 81.531000]: checkpoint_passed start: 10
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718055.144446, 81.535000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 10}
+krpc-user-1  | [INFO] [/krpc_user] [1792718055.150850, 81.541000]: [GaneshaOrbit] REPORT cp 10 level=3 dist=0.022 cen=2.4 roll=0.0 t=64.5s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718055.172645, 81.547000]: [GaneshaOrbit] plan t=64.5s order=[11, 5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=141.7s full=141.7s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718055.178458, 81.565000]: [GaneshaOrbit] leg -> cp 11 (fast) profile 18.9s predicted 17.7s, elapsed 64.5s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718075.951105, 98.108000]: checkpoint_passed start: 11
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718075.959897, 98.113000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 11}
+krpc-user-1  | [INFO] [/krpc_user] [1792718075.968536, 98.120000]: [GaneshaOrbit] REPORT cp 11 level=3 dist=0.022 cen=1.4 roll=0.1 t=81.1s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718075.982857, 98.123000]: [GaneshaOrbit] plan t=81.1s order=[5, 4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=123.9s full=123.9s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718075.987746, 98.135000]: [GaneshaOrbit] leg -> cp 5 (fast) profile 20.2s predicted 19.1s, elapsed 81.1s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718098.420975, 116.688000]: checkpoint_passed start: 5
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718098.430113, 116.696000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 5}
+krpc-user-1  | [INFO] [/krpc_user] [1792718098.437195, 116.701000]: [GaneshaOrbit] REPORT cp 5 level=3 dist=0.030 cen=2.9 roll=0.2 t=99.7s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718098.451967, 116.703000]: [GaneshaOrbit] plan t=99.7s order=[4, 3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=104.9s full=104.9s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718098.459035, 116.720000]: [GaneshaOrbit] leg -> cp 4 (fast) profile 21.9s predicted 20.8s, elapsed 99.7s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718121.910925, 137.039000]: checkpoint_passed start: 4
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718121.916520, 137.044000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 4}
+krpc-user-1  | [INFO] [/krpc_user] [1792718121.922809, 137.050000]: [GaneshaOrbit] REPORT cp 4 level=3 dist=0.029 cen=3.1 roll=0.1 t=120.0s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718121.931983, 137.053000]: [GaneshaOrbit] plan t=120.0s order=[3, 2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast'] route=84.4s full=84.4s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718121.938937, 137.061000]: [GaneshaOrbit] leg -> cp 3 (fast) profile 15.8s predicted 14.6s, elapsed 120.0s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718138.510212, 151.089000]: checkpoint_passed start: 3
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718138.515181, 151.091000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 3}
+krpc-user-1  | [INFO] [/krpc_user] [1792718138.518934, 151.095000]: [GaneshaOrbit] REPORT cp 3 level=3 dist=0.033 cen=3.2 roll=0.1 t=134.1s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718138.526811, 151.099000]: [GaneshaOrbit] plan t=134.1s order=[2, 1, 7, 6] modes=['fast', 'fast', 'fast', 'fast'] route=70.1s full=70.1s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718138.530720, 151.104000]: [GaneshaOrbit] leg -> cp 2 (fast) profile 13.3s predicted 12.2s, elapsed 134.1s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718152.370795, 162.793000]: checkpoint_passed start: 2
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718152.380485, 162.800000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 2}
+krpc-user-1  | [INFO] [/krpc_user] [1792718152.387563, 162.800000]: [GaneshaOrbit] REPORT cp 2 level=3 dist=0.025 cen=2.7 roll=0.3 t=145.8s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718152.394955, 162.800000]: [GaneshaOrbit] plan t=145.8s order=[1, 7, 6] modes=['fast', 'fast', 'fast'] route=58.1s full=58.1s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718152.400084, 162.819000]: [GaneshaOrbit] leg -> cp 1 (fast) profile 20.1s predicted 19.1s, elapsed 145.8s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718174.067087, 181.296000]: checkpoint_passed start: 1
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718174.071416, 181.300000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 1}
+krpc-user-1  | [INFO] [/krpc_user] [1792718174.077316, 181.304000]: [GaneshaOrbit] REPORT cp 1 level=3 dist=0.031 cen=3.0 roll=0.2 t=164.3s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718174.083709, 181.309000]: [GaneshaOrbit] plan t=164.3s order=[7, 6] modes=['fast', 'fast'] route=39.0s full=39.0s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718174.086918, 181.310000]: [GaneshaOrbit] leg -> cp 7 (fast) profile 8.3s predicted 8.6s, elapsed 164.3s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718182.664443, 188.597000]: checkpoint_passed start: 7
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718182.669775, 188.600000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 7}
+krpc-user-1  | [INFO] [/krpc_user] [1792718182.677068, 188.604000]: [GaneshaOrbit] REPORT cp 7 level=3 dist=0.013 cen=0.8 roll=1.6 t=171.6s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718182.682112, 188.607000]: [GaneshaOrbit] plan t=171.6s order=[6] modes=['fast'] route=30.4s full=30.4s dropped=[]
+krpc-user-1  | [INFO] [/krpc_user] [1792718182.685704, 188.607000]: [GaneshaOrbit] leg -> cp 6 (fast) profile 11.8s predicted 11.5s, elapsed 171.6s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718195.639295, 199.487000]: checkpoint_passed start: 6
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718195.644299, 199.491000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 6}
+krpc-user-1  | [INFO] [/krpc_user] [1792718195.650665, 199.498000]: [GaneshaOrbit] REPORT cp 6 level=3 dist=0.010 cen=1.3 roll=0.3 t=182.5s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_user] [1792718195.654751, 199.501000]: [GaneshaOrbit] leg -> cp 12 (fast) profile 20.0s predicted 18.9s, elapsed 182.5s
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718217.622276, 217.777000]: checkpoint_passed start: 12
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718217.631607, 217.784000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 12}
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.635833, 217.787000]: [GaneshaOrbit] REPORT cp 12 level=3 dist=0.030 cen=0.4 roll=0.6 t=200.8s (Lv3 held (fast))
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718217.647194, 217.794000]: mission_finished
+krpc-user-1  | [INFO] [/krpc_api_node] [1792718217.652782, 217.799000]: /gs/data: {"status": "Mission Finish"}
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.656273, 217.801000]: [GaneshaOrbit] mission_finished sent at t=200.78s (ok=True)
+krpc-user-1  | [WARN] [/krpc_user] [1792718217.664994, 217.806000]: [GaneshaOrbit] SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.721216, 217.849000]: [GaneshaOrbit] SUMMARY time=200.8s reported=12 levels=[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.724655, 217.852000]: [GaneshaOrbit]   leg cp9   fast         pred=  22.2s actual=  21.2s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.729902, 217.857000]: [GaneshaOrbit]   leg cp8   fast         pred=  28.0s actual=  27.0s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.735037, 217.861000]: [GaneshaOrbit]   leg cp10  fast         pred=  17.1s actual=  16.2s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.738090, 217.864000]: [GaneshaOrbit]   leg cp11  fast         pred=  17.7s actual=  16.6s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.740834, 217.864000]: [GaneshaOrbit]   leg cp5   fast         pred=  19.1s actual=  18.6s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.743923, 217.869000]: [GaneshaOrbit]   leg cp4   fast         pred=  20.8s actual=  20.3s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.746305, 217.871000]: [GaneshaOrbit]   leg cp3   fast         pred=  14.6s actual=  14.0s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.751332, 217.872000]: [GaneshaOrbit]   leg cp2   fast         pred=  12.2s actual=  11.7s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.755305, 217.878000]: [GaneshaOrbit]   leg cp1   fast         pred=  19.1s actual=  18.5s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.757814, 217.880000]: [GaneshaOrbit]   leg cp7   fast         pred=   8.6s actual=   7.3s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.760921, 217.881000]: [GaneshaOrbit]   leg cp6   fast         pred=  11.5s actual=  10.9s level=3
+krpc-user-1  | [INFO] [/krpc_user] [1792718217.763944, 217.882000]: [GaneshaOrbit]   leg cp12  fast         pred=  18.9s actual=  18.3s level=3
+krpc-1       | 2026/10/23-01:16:58 [INFO] Watchdog has done.
+krpc-1       | 2026/10/23-01:16:58 [INFO] Stopping IB2...
+krpc-user-1  | [WARN] [/krpc_user] [1792718219.359852, 218.848000]: [GaneshaOrbit] SAFE STOP (/ib2_user/stop): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+krpc-user-1  | [INFO] [/krpc_user] [1792718219.440334, 218.891000]: finish processing
+krpc-1       | result: 0
+krpc-1       | 2026/10/23-01:16:59 [INFO] Shutting down IB2...
+krpc-1       | killing /krpc_user
+krpc-user-1  | shutdown request: user request
+krpc-1       | killed
+krpc-user-1  | [1m[krpc_user-2] process has finished cleanly
+krpc-user-1  | log file: /tmp/share/logs/latest/user_programs_logs/ros/bdc702f6-ce7e-11f1-9673-468ee97462e7/krpc_user-2*.log[0m
+krpc-1       | 2026/10/23-01:17:00 [INFO] Waiting TERMINATE SIM 10s...
+krpc-1       | 2026/10/23-01:17:10 [INFO] Waiting TERMINATE SIM done.
+krpc-1       | 2026/10/23-01:17:10 [INFO] save_logs starts: /tmp/share/logs/20261023011156
+krpc-user-1  | tail: '/tmp/share/logs/latest/user_programs_logs/ros/krpc_user_console.log' has become inaccessible: No such file or directory
+krpc-1       | 2026/10/23-01:17:11 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:13 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:15 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:17 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:19 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:21 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:23 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:25 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:27 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:29 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:31 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:33 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:35 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:37 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:39 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:41 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:43 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:45 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:47 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:17:49 [INFO] Waiting for rosbag to be generated...
+krpc-1       | 2026/10/23-01:18:42 [INFO] save_logs has done.
+krpc-1       | 2026/10/23-01:18:42 [INFO] End launcher.
+[Kkrpc-1 exited with code 0
+ Compose Stopping Aborting on container exit...
+ Container krpc7th-simulator-krpc-user-1 Stopping 
+ Container krpc7th-simulator-krpc-1 Stopping 
+ Container krpc7th-simulator-krpc-1 Stopped 
+ Container krpc7th-simulator-krpc-user-1 Stopped 
+[Kkrpc-user-1 exited with code 143
+ Container krpc7th-simulator-krpc-user-1 Stopping 
+ Container krpc7th-simulator-krpc-1 Stopping 
+ Container krpc7th-simulator-krpc-user-1 Stopped 
+ Container krpc7th-simulator-krpc-user-1 Removing 
+ Container krpc7th-simulator-krpc-1 Stopped 
+ Container krpc7th-simulator-krpc-1 Removing 
+ Container krpc7th-simulator-krpc-1 Removed 
+ Container krpc7th-simulator-krpc-user-1 Removed 
+ Network krpc7th-simulator_krpc Removing 
+ Network krpc7th-simulator_krpc Removed 
+SIM EXIT 0
+Fri Oct 23 08:18:44 SEAST 2026

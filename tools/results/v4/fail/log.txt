@@ -1,0 +1,19 @@
+easy      fast     seed=  1 T= 199.3s in_time=True  goal=True  lv3= 6/ 6 base= 21.0 mag=1.336 score= 28.05 fault=True (17.5s wall)
+easy      fast     seed=  2 T= 202.1s in_time=True  goal=True  lv3= 6/ 6 base= 21.0 mag=1.326 score= 27.85 fault=True (14.7s wall)
+easy      fast     seed=  3 T= 207.6s in_time=True  goal=True  lv3= 6/ 6 base= 21.0 mag=1.308 score= 27.47 fault=True (20.5s wall)
+normal    fast     seed=  1 T= 256.7s in_time=True  goal=True  lv3= 8/ 8 base= 27.0 mag=1.144 score= 30.90 fault=True (16.6s wall)
+normal    fast     seed=  2 T= 252.8s in_time=True  goal=True  lv3= 8/ 8 base= 27.0 mag=1.157 score= 31.24 fault=True (8.0s wall)
+normal    fast     seed=  3 T= 252.7s in_time=True  goal=True  lv3= 8/ 8 base= 27.0 mag=1.158 score= 31.25 fault=True (7.8s wall)
+hard      fast     seed=  1 T= 245.0s in_time=True  goal=True  lv3= 8/10 base= 24.0 mag=1.183 score= 28.40 fault=True (7.2s wall)
+hard      fast     seed=  2 T= 268.0s in_time=True  goal=True  lv3= 9/10 base= 27.0 mag=1.107 score= 29.88 fault=True (7.5s wall)
+hard      fast     seed=  3 T= 256.5s in_time=True  goal=True  lv3= 8/10 base= 24.0 mag=1.145 score= 27.48 fault=True (8.8s wall)
+veryhard  fast     seed=  1 T= 263.9s in_time=True  goal=True  lv3= 9/12 base= 27.0 mag=1.120 score= 30.24 fault=True (8.3s wall)
+veryhard  fast     seed=  2 T= 260.2s in_time=True  goal=True  lv3= 9/12 base= 27.0 mag=1.133 score= 30.58 fault=True (7.3s wall)
+veryhard  fast     seed=  3 T= 258.6s in_time=True  goal=True  lv3= 9/12 base= 27.0 mag=1.138 score= 30.72 fault=True (10.3s wall)
+
+=== SUMMARY (mean over seeds) ===
+level     strategy     T[s]  in_time    goal%     Lv3%    score
+easy      fast        203.0     100%     100%     100%    27.79
+normal    fast        254.1     100%     100%     100%    31.13
+hard      fast        256.5     100%     100%      83%    28.58
+veryhard  fast        260.9     100%     100%      75%    30.52

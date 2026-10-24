@@ -1,0 +1,46 @@
+judge equivalence: 6000 random poses identical to official judge.py
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+[generate_objects] safe area: min=[0.2, -0.8, 0.0] max=[7.0, 0.85, 1.68]
+generator: identical to official generate_objects.py
+planner: Held-Karp == brute force
+timing model == emulated ctl profiler
+end-to-end: OK
+attitude limit-cycle guard (v2): OK
+crash path FAST (v3): crash at t=30.0s -> FAST off, zero wrench, KEEP_POSE, 1x mission_finished, robot at rest: OK
+v2 crash handler reproduced: wrench controller stayed active (bug confirmed, fixed in v3)
+crash path SAFE (v3): OK
+crash in constructor / BaseException (v3): OK
+normal finish + deadline watchdog share safe_stop (v3): OK
+eta split (v4): fixed when disabled, within the v3 fan budget, profile == prediction: OK
+ArUco alignment math (v4): OK
+ArUco modes off/log/correct (v4): OK
+reference governor (v4): weak fans without fault, nominal unchanged: OK
+start settle (v4): spinning start -> ctl KEEP_POSE first, FAST without fault: OK
+ALL 16 TESTS PASSED
+exit=0

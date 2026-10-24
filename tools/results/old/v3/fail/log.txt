@@ -1,0 +1,11 @@
+normal    fast     seed=  1 T= 267.9s in_time=True  goal=True  lv3= 8/ 8 base= 27.0 mag=1.107 score= 29.89 fault=True (13.5s wall)
+normal    fast     seed=  2 T= 264.8s in_time=True  goal=True  lv3= 8/ 8 base= 27.0 mag=1.117 score= 30.16 fault=True (6.9s wall)
+normal    fast     seed=  3 T= 262.9s in_time=True  goal=True  lv3= 8/ 8 base= 27.0 mag=1.124 score= 30.33 fault=True (11.3s wall)
+veryhard  fast     seed=  1 T= 239.8s in_time=True  goal=True  lv3= 8/12 base= 24.0 mag=1.201 score= 28.82 fault=True (9.5s wall)
+veryhard  fast     seed=  2 T= 272.0s in_time=True  goal=True  lv3= 9/12 base= 27.0 mag=1.093 score= 29.52 fault=True (9.1s wall)
+veryhard  fast     seed=  3 T= 269.6s in_time=True  goal=True  lv3= 9/12 base= 27.0 mag=1.101 score= 29.74 fault=True (1.9s wall)
+
+=== SUMMARY (mean over seeds) ===
+level     strategy     T[s]  in_time    goal%     Lv3%    score
+normal    fast        265.2     100%     100%     100%    30.13
+veryhard  fast        260.5     100%     100%      72%    29.36

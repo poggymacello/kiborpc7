@@ -1,0 +1,32 @@
+[rosout][INFO] 2026-10-23 01:20:31,223: start id: 0
+[rosout][INFO] 2026-10-23 01:20:31,256: [GaneshaOrbit] checkpoints: [2, 4, 5, 6, 8, 12] goal=12 mode=fast
+[rosout][INFO] 2026-10-23 01:20:31,266: [GaneshaOrbit] plan t=0.0s order=[8, 5, 4, 2, 6] modes=['fast', 'fast', 'fast', 'fast', 'fast'] route=135.4s full=135.4s dropped=[]
+[rosout][INFO] 2026-10-23 01:20:31,271: [GaneshaOrbit] leg -> cp 8 (fast) profile 39.3s predicted 38.2s, elapsed 0.0s
+[rosout][INFO] 2026-10-23 01:21:14,501: [GaneshaOrbit] REPORT cp 8 level=3 dist=0.020 cen=2.1 roll=0.2 t=37.3s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:21:14,507: [GaneshaOrbit] plan t=37.3s order=[5, 4, 2, 6] modes=['fast', 'fast', 'fast', 'fast'] route=97.3s full=97.3s dropped=[]
+[rosout][INFO] 2026-10-23 01:21:14,510: [GaneshaOrbit] leg -> cp 5 (fast) profile 19.1s predicted 17.9s, elapsed 37.3s
+[rosout][INFO] 2026-10-23 01:21:34,136: [GaneshaOrbit] REPORT cp 5 level=3 dist=0.027 cen=1.3 roll=0.0 t=54.3s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:21:34,147: [GaneshaOrbit] plan t=54.3s order=[4, 2, 6] modes=['fast', 'fast', 'fast'] route=79.2s full=79.2s dropped=[]
+[rosout][INFO] 2026-10-23 01:21:34,162: [GaneshaOrbit] leg -> cp 4 (fast) profile 23.6s predicted 22.4s, elapsed 54.3s
+[rosout][INFO] 2026-10-23 01:21:59,870: [GaneshaOrbit] REPORT cp 4 level=3 dist=0.028 cen=3.0 roll=0.1 t=76.3s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:21:59,878: [GaneshaOrbit] plan t=76.3s order=[2, 6] modes=['fast', 'fast'] route=57.1s full=57.1s dropped=[]
+[rosout][INFO] 2026-10-23 01:21:59,883: [GaneshaOrbit] leg -> cp 2 (fast) profile 20.2s predicted 19.0s, elapsed 76.3s
+[rosout][INFO] 2026-10-23 01:22:21,443: [GaneshaOrbit] REPORT cp 2 level=3 dist=0.025 cen=2.8 roll=0.1 t=94.9s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:22:21,452: [GaneshaOrbit] plan t=94.9s order=[6] modes=['fast'] route=38.3s full=38.3s dropped=[]
+[rosout][INFO] 2026-10-23 01:22:21,455: [GaneshaOrbit] leg -> cp 6 (fast) profile 19.2s predicted 18.0s, elapsed 94.9s
+[rosout][INFO] 2026-10-23 01:22:41,853: [GaneshaOrbit] REPORT cp 6 level=3 dist=0.026 cen=2.9 roll=0.1 t=112.5s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:22:41,858: [GaneshaOrbit] leg -> cp 12 (fast) profile 21.7s predicted 20.5s, elapsed 112.5s
+[rosout][INFO] 2026-10-23 01:23:04,677: [GaneshaOrbit] REPORT cp 12 level=3 dist=0.028 cen=0.8 roll=0.1 t=132.3s (Lv3 held (fast))
+[rosout][INFO] 2026-10-23 01:23:04,702: [GaneshaOrbit] mission_finished sent at t=132.35s (ok=True)
+[rosout][WARN] 2026-10-23 01:23:04,706: [GaneshaOrbit] SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+[rosout][INFO] 2026-10-23 01:23:04,763: [GaneshaOrbit] SUMMARY time=132.4s reported=6 levels=[3, 3, 3, 3, 3, 3]
+[rosout][INFO] 2026-10-23 01:23:04,767: [GaneshaOrbit]   leg cp8   fast         pred=  38.2s actual=  37.3s level=3
+[rosout][INFO] 2026-10-23 01:23:04,770: [GaneshaOrbit]   leg cp5   fast         pred=  17.9s actual=  17.0s level=3
+[rosout][INFO] 2026-10-23 01:23:04,773: [GaneshaOrbit]   leg cp4   fast         pred=  22.4s actual=  21.9s level=3
+[rosout][INFO] 2026-10-23 01:23:04,776: [GaneshaOrbit]   leg cp2   fast         pred=  19.0s actual=  18.7s level=3
+[rosout][INFO] 2026-10-23 01:23:04,779: [GaneshaOrbit]   leg cp6   fast         pred=  18.0s actual=  17.5s level=3
+[rosout][INFO] 2026-10-23 01:23:04,782: [GaneshaOrbit]   leg cp12  fast         pred=  20.5s actual=  19.9s level=3
+[rosout][WARN] 2026-10-23 01:23:05,486: [GaneshaOrbit] SAFE STOP (/ib2_user/stop): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+[rosout][INFO] 2026-10-23 01:23:05,552: finish processing
+shutdown request: user request
+[krpc_user-2] process has finished cleanly

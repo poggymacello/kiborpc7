@@ -1,0 +1,2007 @@
+{
+ "cfg": {},
+ "scen": "nominal",
+ "script": null,
+ "rows": [
+  {
+   "T": 128.70000000002793,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.570999999999907,
+   "score": 32.990999999998046,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 1,
+   "strategy": "fast",
+   "wall_s": 7.988896608352661,
+   "fault": false,
+   "max_pos_err": 0.016676308539374993,
+   "max_att_err": 0.30954455319594165,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 125.9000000000275,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5803333333332417,
+   "score": 33.18699999999807,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 2,
+   "strategy": "fast",
+   "wall_s": 5.675392150878906,
+   "fault": false,
+   "max_pos_err": 0.012286184998608101,
+   "max_att_err": 1.296085109596581,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 133.55000000002352,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.554833333333255,
+   "score": 32.65149999999835,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 3,
+   "strategy": "fast",
+   "wall_s": 8.335139989852905,
+   "fault": false,
+   "max_pos_err": 0.01682126714319568,
+   "max_att_err": 0.3958818175147318,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 137.3000000000201,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5423333333332663,
+   "score": 32.38899999999859,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 4,
+   "strategy": "fast",
+   "wall_s": 8.600428581237793,
+   "fault": false,
+   "max_pos_err": 0.016152205411026486,
+   "max_att_err": 0.4709047371772433,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 133.9000000000232,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5536666666665893,
+   "score": 32.626999999998375,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 5,
+   "strategy": "fast",
+   "wall_s": 8.979645013809204,
+   "fault": false,
+   "max_pos_err": 0.015833275980387553,
+   "max_att_err": 0.4446948696026519,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 134.30000000002283,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5523333333332572,
+   "score": 32.5989999999984,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 6,
+   "strategy": "fast",
+   "wall_s": 8.312835693359375,
+   "fault": false,
+   "max_pos_err": 0.01643914245981489,
+   "max_att_err": 0.5163143762725843,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 117.3000000000231,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.6089999999999232,
+   "score": 33.78899999999839,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 7,
+   "strategy": "fast",
+   "wall_s": 5.945111036300659,
+   "fault": false,
+   "max_pos_err": 0.05209273205710219,
+   "max_att_err": 4.482922106323473,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 105.00000000001681,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.649999999999944,
+   "score": 34.649999999998826,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 8,
+   "strategy": "fast",
+   "wall_s": 3.517426013946533,
+   "fault": false,
+   "max_pos_err": 0.01767381732427561,
+   "max_att_err": 0.40305210174772604,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 132.20000000002474,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5593333333332509,
+   "score": 32.74599999999827,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 9,
+   "strategy": "fast",
+   "wall_s": 6.413586139678955,
+   "fault": false,
+   "max_pos_err": 0.015662115415180016,
+   "max_att_err": 0.5415789829123502,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 131.35000000002552,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5621666666665817,
+   "score": 32.80549999999821,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 10,
+   "strategy": "fast",
+   "wall_s": 6.629723072052002,
+   "fault": false,
+   "max_pos_err": 0.018507293294995366,
+   "max_att_err": 0.8029191966949171,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 138.35000000001915,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5388333333332695,
+   "score": 32.31549999999866,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 11,
+   "strategy": "fast",
+   "wall_s": 6.452635049819946,
+   "fault": false,
+   "max_pos_err": 0.016042112051416316,
+   "max_att_err": 0.3601967126688916,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 135.4500000000218,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5484999999999274,
+   "score": 32.518499999998475,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 12,
+   "strategy": "fast",
+   "wall_s": 14.465132713317871,
+   "fault": false,
+   "max_pos_err": 0.014952408046128286,
+   "max_att_err": 0.3629213963101757,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 138.25000000001924,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5391666666666026,
+   "score": 32.322499999998655,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 13,
+   "strategy": "fast",
+   "wall_s": 8.452342748641968,
+   "fault": false,
+   "max_pos_err": 0.015997972000327345,
+   "max_att_err": 0.44379092648922613,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 130.20000000002656,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5659999999999115,
+   "score": 32.88599999999814,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 14,
+   "strategy": "fast",
+   "wall_s": 8.993518114089966,
+   "fault": false,
+   "max_pos_err": 0.03664147925715708,
+   "max_att_err": 2.0530724956114152,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 137.95000000001951,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5401666666666016,
+   "score": 32.343499999998635,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 15,
+   "strategy": "fast",
+   "wall_s": 14.548855066299438,
+   "fault": false,
+   "max_pos_err": 0.014547106700869865,
+   "max_att_err": 0.34611220336802623,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 130.35000000002643,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.565499999999912,
+   "score": 32.87549999999815,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 16,
+   "strategy": "fast",
+   "wall_s": 13.016811609268188,
+   "fault": false,
+   "max_pos_err": 0.013982991041034065,
+   "max_att_err": 0.445600538526612,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 129.9500000000268,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.566833333333244,
+   "score": 32.903499999998125,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 17,
+   "strategy": "fast",
+   "wall_s": 14.739474058151245,
+   "fault": false,
+   "max_pos_err": 0.016447880999090784,
+   "max_att_err": 0.3812125091787712,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 124.00000000002653,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.586666666666578,
+   "score": 33.31999999999814,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 18,
+   "strategy": "fast",
+   "wall_s": 12.99494743347168,
+   "fault": false,
+   "max_pos_err": 0.01607006351662632,
+   "max_att_err": 0.345664606999714,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 143.9000000000141,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5203333333332862,
+   "score": 31.926999999999012,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 19,
+   "strategy": "fast",
+   "wall_s": 5.2042717933654785,
+   "fault": false,
+   "max_pos_err": 0.015002668619907572,
+   "max_att_err": 0.3721879739697837,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 137.7500000000197,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5408333333332678,
+   "score": 32.35749999999862,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 20,
+   "strategy": "fast",
+   "wall_s": 15.515860080718994,
+   "fault": false,
+   "max_pos_err": 0.016557758379541557,
+   "max_att_err": 0.49597070084856826,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 125.65000000002738,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5811666666665753,
+   "score": 33.204499999998085,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 21,
+   "strategy": "fast",
+   "wall_s": 14.223294734954834,
+   "fault": false,
+   "max_pos_err": 0.029138965006202285,
+   "max_att_err": 3.5819873678332534,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 119.00000000002397,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.6033333333332533,
+   "score": 33.66999999999832,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 22,
+   "strategy": "fast",
+   "wall_s": 13.787784814834595,
+   "fault": false,
+   "max_pos_err": 0.017068645815431615,
+   "max_att_err": 0.39853083558294106,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 134.95000000002224,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.5501666666665925,
+   "score": 32.553499999998444,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 23,
+   "strategy": "fast",
+   "wall_s": 13.178179025650024,
+   "fault": false,
+   "max_pos_err": 0.017491478504725922,
+   "max_att_err": 0.3097930459542651,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 124.95000000002702,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.58349999999991,
+   "score": 33.25349999999811,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 24,
+   "strategy": "fast",
+   "wall_s": 12.798330783843994,
+   "fault": false,
+   "max_pos_err": 0.016915964125036195,
+   "max_att_err": 0.5146025555540866,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 125.75000000002743,
+   "in_time": true,
+   "base": 21.0,
+   "mag": 1.580833333333242,
+   "score": 33.19749999999809,
+   "goal": true,
+   "n_rules": 6,
+   "n_lv3": 6,
+   "level": "easy",
+   "seed": 25,
+   "strategy": "fast",
+   "wall_s": 7.942231893539429,
+   "fault": false,
+   "max_pos_err": 0.016287616850554097,
+   "max_att_err": 0.44388421177140774,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 153.45000000000542,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.488499999999982,
+   "score": 40.18949999999951,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 1,
+   "strategy": "fast",
+   "wall_s": 18.67452359199524,
+   "fault": false,
+   "max_pos_err": 0.016714710280806146,
+   "max_att_err": 0.44107813777897065,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 149.80000000000874,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5006666666666375,
+   "score": 40.51799999999921,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 2,
+   "strategy": "fast",
+   "wall_s": 17.756864547729492,
+   "fault": false,
+   "max_pos_err": 0.0158226231224141,
+   "max_att_err": 0.4347876922376372,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 161.6999999999979,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.461000000000007,
+   "score": 39.44700000000019,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 3,
+   "strategy": "fast",
+   "wall_s": 20.56983733177185,
+   "fault": false,
+   "max_pos_err": 0.015512561572004709,
+   "max_att_err": 0.5964752752434509,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 165.59999999999437,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4480000000000188,
+   "score": 39.09600000000051,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 4,
+   "strategy": "fast",
+   "wall_s": 2.416818141937256,
+   "fault": false,
+   "max_pos_err": 0.013338423398741639,
+   "max_att_err": 0.517351790936737,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 154.10000000000483,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4863333333333173,
+   "score": 40.13099999999957,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 5,
+   "strategy": "fast",
+   "wall_s": 21.75904393196106,
+   "fault": false,
+   "max_pos_err": 0.024283565177005285,
+   "max_att_err": 0.8808212421561031,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 159.25000000000014,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4691666666666663,
+   "score": 39.66749999999999,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 6,
+   "strategy": "fast",
+   "wall_s": 17.68167018890381,
+   "fault": false,
+   "max_pos_err": 0.0056931726856423994,
+   "max_att_err": 0.8869751207827641,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 153.20000000000564,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4893333333333145,
+   "score": 40.21199999999949,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 7,
+   "strategy": "fast",
+   "wall_s": 2.252678394317627,
+   "fault": false,
+   "max_pos_err": 0.01729054484041575,
+   "max_att_err": 0.4709210905490209,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 145.20000000001292,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.515999999999957,
+   "score": 40.93199999999884,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 8,
+   "strategy": "fast",
+   "wall_s": 22.70810627937317,
+   "fault": false,
+   "max_pos_err": 0.051924061279500174,
+   "max_att_err": 4.266614081361951,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 154.00000000000492,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4866666666666504,
+   "score": 40.13999999999956,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 9,
+   "strategy": "fast",
+   "wall_s": 12.787229061126709,
+   "fault": false,
+   "max_pos_err": 0.01766551292895492,
+   "max_att_err": 1.6499603012006132,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 156.5500000000026,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.478166666666658,
+   "score": 39.910499999999764,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 10,
+   "strategy": "fast",
+   "wall_s": 5.108281135559082,
+   "fault": false,
+   "max_pos_err": 0.006929259113054796,
+   "max_att_err": 0.7606752553737591,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 165.999999999994,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4466666666666868,
+   "score": 39.06000000000054,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 11,
+   "strategy": "fast",
+   "wall_s": 16.60466480255127,
+   "fault": false,
+   "max_pos_err": 0.01626547221816443,
+   "max_att_err": 0.33614490984104534,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 155.50000000000355,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.481666666666655,
+   "score": 40.00499999999968,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 12,
+   "strategy": "fast",
+   "wall_s": 10.030306816101074,
+   "fault": false,
+   "max_pos_err": 0.012018517128538134,
+   "max_att_err": 0.3556515746343107,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 150.55000000000805,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4981666666666398,
+   "score": 40.45049999999927,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 13,
+   "strategy": "fast",
+   "wall_s": 25.111344575881958,
+   "fault": false,
+   "max_pos_err": 0.013069373366653364,
+   "max_att_err": 0.38824699628662784,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 151.20000000000746,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4959999999999751,
+   "score": 40.39199999999933,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 14,
+   "strategy": "fast",
+   "wall_s": 19.700247049331665,
+   "fault": false,
+   "max_pos_err": 0.019979852894354114,
+   "max_att_err": 1.0914948768741508,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 153.3500000000055,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.488833333333315,
+   "score": 40.198499999999505,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 15,
+   "strategy": "fast",
+   "wall_s": 9.763157367706299,
+   "fault": false,
+   "max_pos_err": 0.005544186664739349,
+   "max_att_err": 1.1292730719049833,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 151.30000000000737,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.495666666666642,
+   "score": 40.382999999999335,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 16,
+   "strategy": "fast",
+   "wall_s": 16.001920700073242,
+   "fault": false,
+   "max_pos_err": 0.016293918517051753,
+   "max_att_err": 0.40666121769797725,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 158.45000000000087,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4718333333333304,
+   "score": 39.73949999999992,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 17,
+   "strategy": "fast",
+   "wall_s": 20.675435304641724,
+   "fault": false,
+   "max_pos_err": 0.019583836876974334,
+   "max_att_err": 0.4079097974707816,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 148.25000000001015,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.5058333333332996,
+   "score": 40.65749999999909,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 18,
+   "strategy": "fast",
+   "wall_s": 13.872960090637207,
+   "fault": false,
+   "max_pos_err": 0.008797016373855278,
+   "max_att_err": 0.49766473904478997,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 169.89999999999046,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4336666666666984,
+   "score": 38.709000000000856,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 19,
+   "strategy": "fast",
+   "wall_s": 20.442747592926025,
+   "fault": false,
+   "max_pos_err": 0.016090895655551215,
+   "max_att_err": 0.4091789043824881,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 158.300000000001,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.47233333333333,
+   "score": 39.75299999999991,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 20,
+   "strategy": "fast",
+   "wall_s": 16.154521465301514,
+   "fault": false,
+   "max_pos_err": 0.022168922914520228,
+   "max_att_err": 0.9623689961605786,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 152.55000000000624,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4914999999999792,
+   "score": 40.27049999999944,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 21,
+   "strategy": "fast",
+   "wall_s": 17.087363243103027,
+   "fault": false,
+   "max_pos_err": 0.015160914014526088,
+   "max_att_err": 0.4630837427138669,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 139.55000000001806,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.534833333333273,
+   "score": 41.44049999999837,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 22,
+   "strategy": "fast",
+   "wall_s": 15.104254484176636,
+   "fault": false,
+   "max_pos_err": 0.017790082663538237,
+   "max_att_err": 0.8601979108579523,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 167.69999999999246,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4410000000000251,
+   "score": 38.90700000000068,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 23,
+   "strategy": "fast",
+   "wall_s": 16.582700967788696,
+   "fault": false,
+   "max_pos_err": 0.019078269598518622,
+   "max_att_err": 1.1317479920514342,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 153.85000000000505,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.4871666666666499,
+   "score": 40.153499999999546,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 24,
+   "strategy": "fast",
+   "wall_s": 16.329457759857178,
+   "fault": false,
+   "max_pos_err": 0.017815665539343217,
+   "max_att_err": 0.791350233564937,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 153.3500000000055,
+   "in_time": true,
+   "base": 27.0,
+   "mag": 1.488833333333315,
+   "score": 40.198499999999505,
+   "goal": true,
+   "n_rules": 8,
+   "n_lv3": 8,
+   "level": "normal",
+   "seed": 25,
+   "strategy": "fast",
+   "wall_s": 16.12466025352478,
+   "fault": false,
+   "max_pos_err": 0.016400617032905487,
+   "max_att_err": 0.5589589110624748,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 181.34999999998004,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3955000000000666,
+   "score": 46.0515000000022,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 1,
+   "strategy": "fast",
+   "wall_s": 18.610723972320557,
+   "fault": false,
+   "max_pos_err": 0.024964721961217035,
+   "max_att_err": 1.2296811770620584,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 170.34999999999005,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4321666666667,
+   "score": 47.2615000000011,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 2,
+   "strategy": "fast",
+   "wall_s": 18.480619430541992,
+   "fault": false,
+   "max_pos_err": 0.019256830125258976,
+   "max_att_err": 1.3794236370196478,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 186.3499999999755,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.378833333333415,
+   "score": 45.5015000000027,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 3,
+   "strategy": "fast",
+   "wall_s": 24.32978129386902,
+   "fault": false,
+   "max_pos_err": 0.010779504049361012,
+   "max_att_err": 1.1157662380096454,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 186.29999999997554,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3790000000000815,
+   "score": 45.50700000000269,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 4,
+   "strategy": "fast",
+   "wall_s": 11.163206100463867,
+   "fault": false,
+   "max_pos_err": 0.013529727133435811,
+   "max_att_err": 0.2915795622400031,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 173.84999999998686,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4205000000000438,
+   "score": 46.87650000000145,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 5,
+   "strategy": "fast",
+   "wall_s": 22.709508180618286,
+   "fault": false,
+   "max_pos_err": 0.01647752330997574,
+   "max_att_err": 0.45043629118139467,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 172.99999999998764,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4233333333333746,
+   "score": 46.97000000000136,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 6,
+   "strategy": "fast",
+   "wall_s": 23.480275869369507,
+   "fault": false,
+   "max_pos_err": 0.017706652399104655,
+   "max_att_err": 0.3925588026196231,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 173.44999999998723,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.421833333333376,
+   "score": 46.920500000001404,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 7,
+   "strategy": "fast",
+   "wall_s": 20.01636290550232,
+   "fault": false,
+   "max_pos_err": 0.016593703040517518,
+   "max_att_err": 0.3595343174648692,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 167.49999999999264,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4416666666666913,
+   "score": 47.57500000000081,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 8,
+   "strategy": "fast",
+   "wall_s": 22.97585439682007,
+   "fault": false,
+   "max_pos_err": 0.005461748757057126,
+   "max_att_err": 0.4619621051253059,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 169.64999999999068,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.434500000000031,
+   "score": 47.33850000000102,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 9,
+   "strategy": "fast",
+   "wall_s": 18.72035789489746,
+   "fault": false,
+   "max_pos_err": 0.004747897214930618,
+   "max_att_err": 1.0919730721817296,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 184.1499999999775,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3861666666667416,
+   "score": 45.74350000000247,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 10,
+   "strategy": "fast",
+   "wall_s": 23.76634669303894,
+   "fault": false,
+   "max_pos_err": 0.015401629176222943,
+   "max_att_err": 0.40232777261751335,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 182.44999999997904,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3918333333334032,
+   "score": 45.930500000002304,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 11,
+   "strategy": "fast",
+   "wall_s": 21.259965419769287,
+   "fault": false,
+   "max_pos_err": 0.015682962053509907,
+   "max_att_err": 0.3269974143183513,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 168.44999999999177,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4385000000000274,
+   "score": 47.470500000000904,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 12,
+   "strategy": "fast",
+   "wall_s": 16.794098615646362,
+   "fault": false,
+   "max_pos_err": 0.015495833768684433,
+   "max_att_err": 0.4923076416982594,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 174.49999999998627,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4183333333333792,
+   "score": 46.80500000000151,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 13,
+   "strategy": "fast",
+   "wall_s": 19.282801866531372,
+   "fault": false,
+   "max_pos_err": 0.007281205897917946,
+   "max_att_err": 1.4312524974857967,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 172.64999999998795,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.42450000000004,
+   "score": 47.00850000000132,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 14,
+   "strategy": "fast",
+   "wall_s": 15.59865403175354,
+   "fault": false,
+   "max_pos_err": 0.011382446230687704,
+   "max_att_err": 0.3593160949942072,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 173.29999999998736,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4223333333333754,
+   "score": 46.93700000000139,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 15,
+   "strategy": "fast",
+   "wall_s": 12.964976787567139,
+   "fault": false,
+   "max_pos_err": 0.008497496450887009,
+   "max_att_err": 1.3697736105573384,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 178.7499999999824,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4041666666667254,
+   "score": 46.33750000000194,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 16,
+   "strategy": "fast",
+   "wall_s": 14.331923007965088,
+   "fault": false,
+   "max_pos_err": 0.016531535604148825,
+   "max_att_err": 0.4096582934012336,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 177.4499999999836,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4085000000000547,
+   "score": 46.480500000001804,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 17,
+   "strategy": "fast",
+   "wall_s": 16.930302619934082,
+   "fault": false,
+   "max_pos_err": 0.007064820119410671,
+   "max_att_err": 0.7439821631381753,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 170.9499999999895,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4301666666667017,
+   "score": 47.195500000001154,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 18,
+   "strategy": "fast",
+   "wall_s": 9.987385749816895,
+   "fault": false,
+   "max_pos_err": 0.01606890823753641,
+   "max_att_err": 2.0935636643060422,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 186.29999999997554,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3790000000000815,
+   "score": 45.50700000000269,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 19,
+   "strategy": "fast",
+   "wall_s": 17.11395502090454,
+   "fault": false,
+   "max_pos_err": 0.009176409003295805,
+   "max_att_err": 1.0163213156634363,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 182.74999999997877,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3908333333334042,
+   "score": 45.89750000000234,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 20,
+   "strategy": "fast",
+   "wall_s": 16.9241886138916,
+   "fault": false,
+   "max_pos_err": 0.033953723890881866,
+   "max_att_err": 3.169178227551119,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 180.3999999999809,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3986666666667302,
+   "score": 46.156000000002095,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 21,
+   "strategy": "fast",
+   "wall_s": 17.356647491455078,
+   "fault": false,
+   "max_pos_err": 0.018187431414918832,
+   "max_att_err": 2.6849799094773767,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 187.74999999997422,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3741666666667527,
+   "score": 45.34750000000284,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 22,
+   "strategy": "fast",
+   "wall_s": 18.365869760513306,
+   "fault": false,
+   "max_pos_err": 0.01552004534433587,
+   "max_att_err": 0.301895019307346,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 180.04999999998122,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.3998333333333959,
+   "score": 46.194500000002066,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 23,
+   "strategy": "fast",
+   "wall_s": 10.52014446258545,
+   "fault": false,
+   "max_pos_err": 0.01632472025562004,
+   "max_att_err": 0.41215560176465876,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 178.14999999998295,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4061666666667234,
+   "score": 46.40350000000187,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 24,
+   "strategy": "fast",
+   "wall_s": 13.648019075393677,
+   "fault": false,
+   "max_pos_err": 0.02990968289799722,
+   "max_att_err": 2.2441882425088737,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 175.49999999998536,
+   "in_time": true,
+   "base": 33.0,
+   "mag": 1.4150000000000489,
+   "score": 46.69500000000161,
+   "goal": true,
+   "n_rules": 10,
+   "n_lv3": 10,
+   "level": "hard",
+   "seed": 25,
+   "strategy": "fast",
+   "wall_s": 6.26731014251709,
+   "fault": false,
+   "max_pos_err": 0.029976720383669286,
+   "max_att_err": 2.1926419851989047,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 208.79999999995508,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3040000000001497,
+   "score": 50.856000000005835,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 1,
+   "strategy": "fast",
+   "wall_s": 20.386018991470337,
+   "fault": false,
+   "max_pos_err": 0.016467465919230827,
+   "max_att_err": 0.33703075896676304,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 198.0999999999648,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.339666666666784,
+   "score": 52.247000000004576,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 2,
+   "strategy": "fast",
+   "wall_s": 18.320104122161865,
+   "fault": false,
+   "max_pos_err": 0.016513265411226233,
+   "max_att_err": 0.5856189916174578,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 201.44999999996176,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3285000000001275,
+   "score": 51.81150000000497,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 3,
+   "strategy": "fast",
+   "wall_s": 16.265324354171753,
+   "fault": false,
+   "max_pos_err": 0.014861101071545145,
+   "max_att_err": 0.45332189352991115,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 204.99999999995853,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.316666666666805,
+   "score": 51.350000000005394,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 4,
+   "strategy": "fast",
+   "wall_s": 13.427144765853882,
+   "fault": false,
+   "max_pos_err": 0.04783712167349229,
+   "max_att_err": 3.312356589273711,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 196.04999999996667,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.346500000000111,
+   "score": 52.51350000000433,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 5,
+   "strategy": "fast",
+   "wall_s": 16.152602910995483,
+   "fault": false,
+   "max_pos_err": 0.01402927154859656,
+   "max_att_err": 0.5808115495400865,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 203.99999999995944,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3200000000001353,
+   "score": 51.480000000005276,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 6,
+   "strategy": "fast",
+   "wall_s": 23.338637351989746,
+   "fault": false,
+   "max_pos_err": 0.015301622525233092,
+   "max_att_err": 1.8477149459474063,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 202.64999999996067,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.324500000000131,
+   "score": 51.65550000000511,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 7,
+   "strategy": "fast",
+   "wall_s": 16.421929359436035,
+   "fault": false,
+   "max_pos_err": 0.015338714202035534,
+   "max_att_err": 1.3460130891730593,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 203.9499999999595,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3201666666668017,
+   "score": 51.486500000005265,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 8,
+   "strategy": "fast",
+   "wall_s": 16.220151901245117,
+   "fault": false,
+   "max_pos_err": 0.016452335686137045,
+   "max_att_err": 0.4075184844895118,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 204.44999999995903,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3185000000001366,
+   "score": 51.421500000005324,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 9,
+   "strategy": "fast",
+   "wall_s": 24.067943572998047,
+   "fault": false,
+   "max_pos_err": 0.008742034143211392,
+   "max_att_err": 1.4340556445928558,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 203.34999999996003,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3221666666668,
+   "score": 51.5645000000052,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 10,
+   "strategy": "fast",
+   "wall_s": 21.13094735145569,
+   "fault": false,
+   "max_pos_err": 0.015554076868261454,
+   "max_att_err": 0.43504923927215183,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 202.24999999996103,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3258333333334633,
+   "score": 51.70750000000507,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 11,
+   "strategy": "fast",
+   "wall_s": 10.390742778778076,
+   "fault": false,
+   "max_pos_err": 0.015816080769599172,
+   "max_att_err": 0.5476687321180047,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 203.69999999995972,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3210000000001343,
+   "score": 51.519000000005235,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 12,
+   "strategy": "fast",
+   "wall_s": 22.652671813964844,
+   "fault": false,
+   "max_pos_err": 0.014848689012780409,
+   "max_att_err": 0.3853237434823483,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 201.24999999996194,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3291666666667936,
+   "score": 51.83750000000495,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 13,
+   "strategy": "fast",
+   "wall_s": 21.059492826461792,
+   "fault": false,
+   "max_pos_err": 0.03522856784093878,
+   "max_att_err": 4.155384049235435,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 200.099999999963,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3330000000001234,
+   "score": 51.98700000000481,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 14,
+   "strategy": "fast",
+   "wall_s": 18.965940475463867,
+   "fault": false,
+   "max_pos_err": 0.03276986024521903,
+   "max_att_err": 2.3058699744286204,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 202.299999999961,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3256666666667967,
+   "score": 51.70100000000507,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 15,
+   "strategy": "fast",
+   "wall_s": 20.195208072662354,
+   "fault": false,
+   "max_pos_err": 0.014963651848279805,
+   "max_att_err": 0.3925474335201746,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 203.64999999995976,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3211666666668007,
+   "score": 51.52550000000523,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 16,
+   "strategy": "fast",
+   "wall_s": 16.522314310073853,
+   "fault": false,
+   "max_pos_err": 0.016618426249504336,
+   "max_att_err": 0.4398269059202781,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 202.59999999996072,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3246666666667977,
+   "score": 51.66200000000511,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 17,
+   "strategy": "fast",
+   "wall_s": 17.84269690513611,
+   "fault": false,
+   "max_pos_err": 0.014895507705517074,
+   "max_att_err": 0.7301677677777056,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 205.34999999995821,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3155000000001393,
+   "score": 51.30450000000543,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 18,
+   "strategy": "fast",
+   "wall_s": 13.484737157821655,
+   "fault": false,
+   "max_pos_err": 0.01696317395620689,
+   "max_att_err": 0.5574350375445886,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 196.64999999996613,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3445000000001128,
+   "score": 52.4355000000044,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 19,
+   "strategy": "fast",
+   "wall_s": 6.3305230140686035,
+   "fault": false,
+   "max_pos_err": 0.01573076123538547,
+   "max_att_err": 0.41547013643411906,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 199.39999999996363,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3353333333334545,
+   "score": 52.07800000000473,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 20,
+   "strategy": "fast",
+   "wall_s": 8.22086763381958,
+   "fault": false,
+   "max_pos_err": 0.008554224082860338,
+   "max_att_err": 1.2774525836055635,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 208.29999999995553,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3056666666668149,
+   "score": 50.921000000005776,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 21,
+   "strategy": "fast",
+   "wall_s": 15.093055486679077,
+   "fault": false,
+   "max_pos_err": 0.01796842581830659,
+   "max_att_err": 0.4575272358271957,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 199.29999999996372,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3356666666667876,
+   "score": 52.09100000000471,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 22,
+   "strategy": "fast",
+   "wall_s": 15.519869089126587,
+   "fault": false,
+   "max_pos_err": 0.008342445846186614,
+   "max_att_err": 0.38889129197094996,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 199.59999999996344,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3346666666667886,
+   "score": 52.05200000000475,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 23,
+   "strategy": "fast",
+   "wall_s": 14.967130899429321,
+   "fault": false,
+   "max_pos_err": 0.016781803825266665,
+   "max_att_err": 0.474557534571368,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 204.89999999995862,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3170000000001378,
+   "score": 51.36300000000538,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 24,
+   "strategy": "fast",
+   "wall_s": 11.590104818344116,
+   "fault": false,
+   "max_pos_err": 0.020135758935225085,
+   "max_att_err": 1.1899061437643925,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  },
+  {
+   "T": 199.99999999996308,
+   "in_time": true,
+   "base": 39.0,
+   "mag": 1.3333333333334565,
+   "score": 52.0000000000048,
+   "goal": true,
+   "n_rules": 12,
+   "n_lv3": 12,
+   "level": "veryhard",
+   "seed": 25,
+   "strategy": "fast",
+   "wall_s": 13.760298490524292,
+   "fault": false,
+   "max_pos_err": 0.008221879330710936,
+   "max_att_err": 0.45037664912678643,
+   "warns": [
+    "SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE"
+   ]
+  }
+ ]
+}

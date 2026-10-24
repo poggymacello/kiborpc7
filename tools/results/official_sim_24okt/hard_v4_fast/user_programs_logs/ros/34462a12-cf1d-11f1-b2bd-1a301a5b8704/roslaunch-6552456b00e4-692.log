@@ -1,0 +1,66 @@
+[roslaunch][INFO] 2026-10-23 20:07:03,482: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2026-10-23 20:07:03,525: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2026-10-23 20:07:03,526: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'krpc_user', 'krpc_user.launch', 'checkpoint_source_path:=/tmp/share/logs/latest/cheat_sheet.json']
+[roslaunch][INFO] 2026-10-23 20:07:03,527: roslaunch env is {'ROSCONSOLE_FORMAT': '[${severity}] [${node}] [${time}]: ${message}', 'ROS_DISTRO': 'melodic', 'ROS_LOG_DIR': '/tmp/share/logs/latest/user_programs_logs/ros', 'PKG_CONFIG_PATH': '/users/catkin_ws/devel/lib/pkgconfig:/home/intball/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROSLISP_PACKAGE_DIRECTORIES': '/users/catkin_ws/devel/share/common-lisp:/home/intball/catkin_ws/devel/share/common-lisp', 'USER': 'intball', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'krpc-user', 'HOME': '/home/intball', 'PYTHONUNBUFFERED': '1', 'CMAKE_PREFIX_PATH': '/users/catkin_ws/devel:/home/intball/catkin_ws/devel:/opt/ros/melodic:/usr/include/gazebo-9:/opt/ros/melodic/share/gazebo_ros', 'SIM_PATTERN': '0', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/tmp/share/logs/latest/user_programs_logs/ros/34462a12-cf1d-11f1-b2bd-1a301a5b8704/roslaunch-6552456b00e4-692.log', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/users/catkin_ws/devel/lib:/home/intball/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'SIM_MODE': 'regular', 'PYTHONPATH': '/users/catkin_ws/devel/lib/python3/dist-packages:/home/intball/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '3', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'ROUND': 'simulation', 'PASS': 'intball', 'DEBUG': 'debug', 'ROS_PACKAGE_PATH': '/users/catkin_ws/src:/home/intball/catkin_ws/src:/opt/ros/melodic/share', 'OpenCV_DIR': '/usr/local/share/OpenCV', '_': '/usr/bin/stdbuf', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/coreutils/libstdbuf.so', '_STDBUF_O': 'L', '_STDBUF_E': 'L', 'HOSTNAME': '6552456b00e4', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/melodic/lib', 'PWD': '/users/catkin_ws/bootstrap', 'ROS_MASTER_URI': 'http://krpc:11311', 'ROS_VERSION': '1'}
+[roslaunch][INFO] 2026-10-23 20:07:03,532: starting in server mode
+[roslaunch.parent][INFO] 2026-10-23 20:07:03,533: starting roslaunch parent run
+[roslaunch][INFO] 2026-10-23 20:07:03,534: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2026-10-23 20:07:04,267: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2026-10-23 20:07:04,268: loading config file /users/catkin_ws/src/krpc_user/launch/krpc_user.launch
+[roslaunch][INFO] 2026-10-23 20:07:04,275: Added node of type [krpc_api_server/krpc_api_node.py] in namespace [/]
+[roslaunch][INFO] 2026-10-23 20:07:04,276: Added node of type [krpc_user/user_template.py] in namespace [/]
+[roslaunch][INFO] 2026-10-23 20:07:04,277: ... selected machine [] for node of type [krpc_api_server/krpc_api_node.py]
+[roslaunch][INFO] 2026-10-23 20:07:04,278: ... selected machine [] for node of type [krpc_user/user_template.py]
+[roslaunch.pmon][INFO] 2026-10-23 20:07:04,304: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2026-10-23 20:07:04,305: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2026-10-23 20:07:04,306: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2026-10-23 20:07:04,306: starting parent XML-RPC server
+[roslaunch.server][INFO] 2026-10-23 20:07:04,307: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2026-10-23 20:07:04,308: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2026-10-23 20:07:04,308: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2026-10-23 20:07:04,309: Started XML-RPC server [http://krpc-user:34057/]
+[xmlrpc][INFO] 2026-10-23 20:07:04,310: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2026-10-23 20:07:04,321: started roslaunch server http://krpc-user:34057/
+[roslaunch.parent][INFO] 2026-10-23 20:07:04,322: ... parent XML-RPC server started
+[roslaunch][INFO] 2026-10-23 20:07:04,324: master.is_running[http://krpc:11311]
+[roslaunch][INFO] 2026-10-23 20:07:04,330: master.is_running[http://krpc:11311]
+[roslaunch][INFO] 2026-10-23 20:07:04,332: ROS_MASTER_URI=http://krpc:11311
+[roslaunch][INFO] 2026-10-23 20:07:04,337: setting /roslaunch/uris/host_krpc_user__34057' to http://krpc-user:34057/
+[roslaunch][INFO] 2026-10-23 20:07:04,339: load_parameters starting ...
+[roslaunch][INFO] 2026-10-23 20:07:04,347: ... load_parameters complete
+[roslaunch][INFO] 2026-10-23 20:07:04,348: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2026-10-23 20:07:04,349: ... preparing to launch node of type [krpc_api_server/krpc_api_node.py]
+[roslaunch][INFO] 2026-10-23 20:07:04,350: create_node_process: package[krpc_api_server] type[krpc_api_node.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://krpc:11311]
+[roslaunch][INFO] 2026-10-23 20:07:04,350: process[krpc_api_node-1]: env[{'ROSCONSOLE_FORMAT': '[${severity}] [${node}] [${time}]: ${message}', 'ROS_DISTRO': 'melodic', 'ROS_LOG_DIR': '/tmp/share/logs/latest/user_programs_logs/ros', 'DEBUG': 'debug', 'ROSLISP_PACKAGE_DIRECTORIES': '/users/catkin_ws/devel/share/common-lisp:/home/intball/catkin_ws/devel/share/common-lisp', 'USER': 'intball', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'krpc-user', 'HOME': '/home/intball', 'PYTHONUNBUFFERED': '1', 'CMAKE_PREFIX_PATH': '/users/catkin_ws/devel:/home/intball/catkin_ws/devel:/opt/ros/melodic:/usr/include/gazebo-9:/opt/ros/melodic/share/gazebo_ros', 'ROS_LOG_FILENAME': '/tmp/share/logs/latest/user_programs_logs/ros/34462a12-cf1d-11f1-b2bd-1a301a5b8704/roslaunch-6552456b00e4-692.log', 'SHELL': '/bin/bash', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/users/catkin_ws/devel/lib:/home/intball/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'SIM_MODE': 'regular', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_MASTER_URI': 'http://krpc:11311', 'ROS_PYTHON_VERSION': '3', 'PYTHONPATH': '/users/catkin_ws/devel/lib/python3/dist-packages:/home/intball/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'ROUND': 'simulation', 'SIM_PATTERN': '0', 'PASS': 'intball', 'PKG_CONFIG_PATH': '/users/catkin_ws/devel/lib/pkgconfig:/home/intball/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/users/catkin_ws/src:/home/intball/catkin_ws/src:/opt/ros/melodic/share', 'OpenCV_DIR': '/usr/local/share/OpenCV', '_': '/usr/bin/stdbuf', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/coreutils/libstdbuf.so', '_STDBUF_O': 'L', '_STDBUF_E': 'L', 'HOSTNAME': '6552456b00e4', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/melodic/lib', 'PWD': '/users/catkin_ws/bootstrap', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2026-10-23 20:07:04,697: process[krpc_api_node-1]: args[['python3', u'/users/catkin_ws/src/krpc_api_server/scripts/krpc_api_node.py', u'__name:=krpc_api_node']]
+[roslaunch][INFO] 2026-10-23 20:07:04,701: ... created process [krpc_api_node-1]
+[roslaunch.pmon][INFO] 2026-10-23 20:07:04,702: ProcessMonitor.register[krpc_api_node-1]
+[roslaunch.pmon][INFO] 2026-10-23 20:07:04,702: ProcessMonitor.register[krpc_api_node-1] complete
+[roslaunch][INFO] 2026-10-23 20:07:04,703: ... registered process [krpc_api_node-1]
+[roslaunch][INFO] 2026-10-23 20:07:04,703: process[krpc_api_node-1]: starting os process
+[roslaunch][INFO] 2026-10-23 20:07:04,704: process[krpc_api_node-1]: start w/ args [['python3', u'/users/catkin_ws/src/krpc_api_server/scripts/krpc_api_node.py', u'__name:=krpc_api_node', u'__log:=/tmp/share/logs/latest/user_programs_logs/ros/34462a12-cf1d-11f1-b2bd-1a301a5b8704/krpc_api_node-1.log']]
+[roslaunch][INFO] 2026-10-23 20:07:04,705: process[krpc_api_node-1]: cwd will be [/home/intball/.ros]
+[roslaunch][INFO] 2026-10-23 20:07:04,884: process[krpc_api_node-1]: started with pid [702]
+[roslaunch][INFO] 2026-10-23 20:07:04,886: ... successfully launched [krpc_api_node-1]
+[roslaunch][INFO] 2026-10-23 20:07:04,886: ... preparing to launch node of type [krpc_user/user_template.py]
+[roslaunch][INFO] 2026-10-23 20:07:04,887: create_node_process: package[krpc_user] type[user_template.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://krpc:11311]
+[roslaunch][INFO] 2026-10-23 20:07:04,888: process[krpc_user-2]: env[{'ROSCONSOLE_FORMAT': '[${severity}] [${node}] [${time}]: ${message}', 'ROS_DISTRO': 'melodic', 'ROS_LOG_DIR': '/tmp/share/logs/latest/user_programs_logs/ros', 'DEBUG': 'debug', 'ROSLISP_PACKAGE_DIRECTORIES': '/users/catkin_ws/devel/share/common-lisp:/home/intball/catkin_ws/devel/share/common-lisp', 'USER': 'intball', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS_HOSTNAME': 'krpc-user', 'HOME': '/home/intball', 'PYTHONUNBUFFERED': '1', 'CMAKE_PREFIX_PATH': '/users/catkin_ws/devel:/home/intball/catkin_ws/devel:/opt/ros/melodic:/usr/include/gazebo-9:/opt/ros/melodic/share/gazebo_ros', 'ROS_LOG_FILENAME': '/tmp/share/logs/latest/user_programs_logs/ros/34462a12-cf1d-11f1-b2bd-1a301a5b8704/roslaunch-6552456b00e4-692.log', 'SHELL': '/bin/bash', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/users/catkin_ws/devel/lib:/home/intball/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'SIM_MODE': 'regular', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_MASTER_URI': 'http://krpc:11311', 'ROS_PYTHON_VERSION': '3', 'PYTHONPATH': '/users/catkin_ws/devel/lib/python3/dist-packages:/home/intball/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'ROUND': 'simulation', 'SIM_PATTERN': '0', 'PASS': 'intball', 'PKG_CONFIG_PATH': '/users/catkin_ws/devel/lib/pkgconfig:/home/intball/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/users/catkin_ws/src:/home/intball/catkin_ws/src:/opt/ros/melodic/share', 'OpenCV_DIR': '/usr/local/share/OpenCV', '_': '/usr/bin/stdbuf', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/coreutils/libstdbuf.so', '_STDBUF_O': 'L', '_STDBUF_E': 'L', 'HOSTNAME': '6552456b00e4', 'GAZEBO_PLUGIN_PATH': ':/opt/ros/melodic/lib', 'PWD': '/users/catkin_ws/bootstrap', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1'}]
+[roslaunch][INFO] 2026-10-23 20:07:05,026: process[krpc_user-2]: args[[u'/users/catkin_ws/src/krpc_user/scripts/user_template.py', u'__name:=krpc_user']]
+[roslaunch][INFO] 2026-10-23 20:07:05,026: ... created process [krpc_user-2]
+[roslaunch.pmon][INFO] 2026-10-23 20:07:05,028: ProcessMonitor.register[krpc_user-2]
+[roslaunch.pmon][INFO] 2026-10-23 20:07:05,028: ProcessMonitor.register[krpc_user-2] complete
+[roslaunch][INFO] 2026-10-23 20:07:05,029: ... registered process [krpc_user-2]
+[roslaunch][INFO] 2026-10-23 20:07:05,030: process[krpc_user-2]: starting os process
+[roslaunch][INFO] 2026-10-23 20:07:05,031: process[krpc_user-2]: start w/ args [[u'/users/catkin_ws/src/krpc_user/scripts/user_template.py', u'__name:=krpc_user', u'__log:=/tmp/share/logs/latest/user_programs_logs/ros/34462a12-cf1d-11f1-b2bd-1a301a5b8704/krpc_user-2.log']]
+[roslaunch][INFO] 2026-10-23 20:07:05,033: process[krpc_user-2]: cwd will be [/home/intball/.ros]
+[roslaunch][INFO] 2026-10-23 20:07:05,218: process[krpc_user-2]: started with pid [703]
+[roslaunch][INFO] 2026-10-23 20:07:05,219: ... successfully launched [krpc_user-2]
+[roslaunch][INFO] 2026-10-23 20:07:05,220: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2026-10-23 20:07:05,221: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 136259239032576)>
+[roslaunch.parent][INFO] 2026-10-23 20:07:05,222: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2026-10-23 20:07:05,222: spin
+[roslaunch][INFO] 2026-10-23 20:10:12,401: [krpc_user-2] process has finished cleanly
+log file: /tmp/share/logs/latest/user_programs_logs/ros/34462a12-cf1d-11f1-b2bd-1a301a5b8704/krpc_user-2*.log
+[roslaunch.pmon][INFO] 2026-10-23 20:10:12,403: ProcessMonitor.unregister[krpc_user-2] starting
+[roslaunch.pmon][INFO] 2026-10-23 20:10:12,404: ProcessMonitor.unregister[krpc_user-2] complete

@@ -1,0 +1,54 @@
+[rosout][INFO] 2026-10-23 01:44:04,990: start id: 0
+[rosout][INFO] 2026-10-23 01:44:05,047: [GaneshaOrbit] checkpoints: [1, 2, 3, 5, 7, 10, 11, 12] goal=12 mode=fast
+[rosout][INFO] 2026-10-23 01:44:05,069: [GaneshaOrbit] plan t=0.0s order=[11, 10, 5, 3, 2, 1, 7] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=158.6s full=158.6s dropped=[]
+[rosout][INFO] 2026-10-23 01:44:05,076: [GaneshaOrbit] leg -> cp 11 (fast) profile 43.4s predicted 42.8s, elapsed 0.0s
+[rosout][WARN] 2026-10-23 01:44:41,257: [GaneshaOrbit] FAST profile softened (fault: navigation stale): eta_t=0.39 eta_r=0.28
+[rosout][INFO] 2026-10-23 01:44:41,263: [GaneshaOrbit] leg -> cp 11 (fast) profile 32.3s predicted 31.2s, elapsed 21.3s
+[rosout][WARN] 2026-10-23 01:44:41,276: [GaneshaOrbit] switching to SAFE mode (onboard ctl): navigation stale (robot did not respond to /ctl/wrench)
+[rosout][INFO] 2026-10-23 01:44:41,282: [GaneshaOrbit] leg -> cp 11 (combined) predicted 33.2s, elapsed 21.3s
+[rosout][WARN] 2026-10-23 01:44:55,587: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+[rosout][WARN] 2026-10-23 01:44:55,696: [GaneshaOrbit] cp 11 not reported (level=0) to avoid a FAIL
+[rosout][INFO] 2026-10-23 01:44:55,714: [GaneshaOrbit] plan t=30.7s order=[10, 5, 2, 3, 1, 7] modes=['combined', 'combined', 'combined', 'combined', 'combined', 'combined'] route=213.7s full=213.7s dropped=[]
+[rosout][INFO] 2026-10-23 01:44:55,722: [GaneshaOrbit] leg -> cp 10 (combined) predicted 40.3s, elapsed 30.7s
+[rosout][WARN] 2026-10-23 01:44:55,826: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+[rosout][WARN] 2026-10-23 01:44:55,920: [GaneshaOrbit] cp 10 not reported (level=0) to avoid a FAIL
+[rosout][INFO] 2026-10-23 01:44:55,931: [GaneshaOrbit] plan t=30.9s order=[5, 2, 3, 1, 7] modes=['combined', 'combined', 'combined', 'combined', 'combined'] route=182.2s full=182.2s dropped=[]
+[rosout][INFO] 2026-10-23 01:44:55,943: [GaneshaOrbit] leg -> cp 5 (combined) predicted 38.9s, elapsed 30.9s
+[rosout][WARN] 2026-10-23 01:44:56,029: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+[rosout][WARN] 2026-10-23 01:44:56,121: [GaneshaOrbit] cp 5 not reported (level=0) to avoid a FAIL
+[rosout][INFO] 2026-10-23 01:44:56,132: [GaneshaOrbit] plan t=31.0s order=[3, 2, 1, 7] modes=['combined', 'combined', 'combined', 'combined'] route=132.7s full=132.7s dropped=[]
+[rosout][INFO] 2026-10-23 01:44:56,139: [GaneshaOrbit] leg -> cp 3 (combined) predicted 27.9s, elapsed 31.0s
+[rosout][WARN] 2026-10-23 01:44:56,241: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+[rosout][WARN] 2026-10-23 01:44:56,360: [GaneshaOrbit] cp 3 not reported (level=0) to avoid a FAIL
+[rosout][INFO] 2026-10-23 01:44:56,407: [GaneshaOrbit] plan t=31.1s order=[2, 1, 7] modes=['combined', 'combined', 'combined'] route=114.5s full=114.5s dropped=[]
+[rosout][INFO] 2026-10-23 01:44:56,427: [GaneshaOrbit] leg -> cp 2 (combined) predicted 30.2s, elapsed 31.1s
+[rosout][WARN] 2026-10-23 01:44:56,510: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+[rosout][WARN] 2026-10-23 01:44:56,598: [GaneshaOrbit] cp 2 not reported (level=0) to avoid a FAIL
+[rosout][INFO] 2026-10-23 01:44:56,610: [GaneshaOrbit] plan t=31.2s order=[1, 7] modes=['combined', 'combined'] route=78.8s full=78.8s dropped=[]
+[rosout][INFO] 2026-10-23 01:44:56,616: [GaneshaOrbit] leg -> cp 1 (combined) predicted 32.6s, elapsed 31.3s
+[rosout][WARN] 2026-10-23 01:44:56,703: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+[rosout][WARN] 2026-10-23 01:44:56,811: [GaneshaOrbit] cp 1 not reported (level=0) to avoid a FAIL
+[rosout][INFO] 2026-10-23 01:44:56,830: [GaneshaOrbit] plan t=31.4s order=[7] modes=['combined'] route=62.0s full=62.0s dropped=[]
+[rosout][INFO] 2026-10-23 01:44:56,836: [GaneshaOrbit] leg -> cp 7 (combined) predicted 34.4s, elapsed 31.4s
+[rosout][WARN] 2026-10-23 01:44:56,948: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+[rosout][WARN] 2026-10-23 01:44:57,020: [GaneshaOrbit] cp 7 not reported (level=0) to avoid a FAIL
+[rosout][INFO] 2026-10-23 01:44:57,027: [GaneshaOrbit] leg -> cp 12 (combined) predicted 40.4s, elapsed 31.5s
+[rosout][WARN] 2026-10-23 01:44:57,122: [GaneshaOrbit] ctl goal ended with PREEMPTED -> resend (1)
+[rosout][WARN] 2026-10-23 01:44:57,192: [GaneshaOrbit] cp 12 not reported (level=0) to avoid a FAIL
+[rosout][INFO] 2026-10-23 01:44:57,235: [GaneshaOrbit] mission_finished sent at t=31.63s (ok=True)
+[rosout][WARN] 2026-10-23 01:44:57,244: [GaneshaOrbit] SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+[rosout][INFO] 2026-10-23 01:44:57,326: [GaneshaOrbit] SUMMARY time=31.7s reported=0 levels=[]
+[rosout][INFO] 2026-10-23 01:44:57,334: [GaneshaOrbit]   leg cp11  fast         pred=  42.8s actual=  21.3s level=0
+[rosout][INFO] 2026-10-23 01:44:57,339: [GaneshaOrbit]   leg cp11  fast         pred=  31.2s actual=   0.0s level=0
+[rosout][INFO] 2026-10-23 01:44:57,351: [GaneshaOrbit]   leg cp11  combined     pred=  33.2s actual=   9.4s level=0
+[rosout][INFO] 2026-10-23 01:44:57,362: [GaneshaOrbit]   leg cp10  combined     pred=  40.3s actual=   0.1s level=0
+[rosout][INFO] 2026-10-23 01:44:57,374: [GaneshaOrbit]   leg cp5   combined     pred=  38.9s actual=   0.1s level=0
+[rosout][INFO] 2026-10-23 01:44:57,379: [GaneshaOrbit]   leg cp3   combined     pred=  27.9s actual=   0.1s level=0
+[rosout][INFO] 2026-10-23 01:44:57,389: [GaneshaOrbit]   leg cp2   combined     pred=  30.2s actual=   0.1s level=0
+[rosout][INFO] 2026-10-23 01:44:57,395: [GaneshaOrbit]   leg cp1   combined     pred=  32.6s actual=   0.1s level=0
+[rosout][INFO] 2026-10-23 01:44:57,403: [GaneshaOrbit]   leg cp7   combined     pred=  34.4s actual=   0.1s level=0
+[rosout][INFO] 2026-10-23 01:44:57,409: [GaneshaOrbit]   leg cp12  combined     pred=  40.4s actual=   0.1s level=0
+[rosout][WARN] 2026-10-23 01:44:58,483: [GaneshaOrbit] SAFE STOP (/ib2_user/stop): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+[rosout][INFO] 2026-10-23 01:44:58,588: finish processing
+shutdown request: user request
+[krpc_user-2] process has finished cleanly

@@ -1,0 +1,14 @@
+# v3 (23 Oct 2026) offline Monte Carlo, same scenarios/seeds as after_v2_20okt.
+# Each scenario was run split per level in parallel (scratch runner), then merged; results are
+# identical to one sequential run because every (level, strategy, seed) run is independent.
+nominal      python tools/offline_sim.py --levels easy,normal,hard,veryhard --seeds 25 --strategies fast,safe,baseline
+stressA      python tools/offline_sim.py --levels easy,normal,hard,veryhard --seeds 20 --strategies fast,safe --bias 0.005 --noise 0.02 --delay 0.2 --dist 0.003
+bias3noise3  python tools/offline_sim.py --levels easy,normal,hard,veryhard --seeds 20 --strategies fast --bias 0.006 --noise 0.036 --dist 0.0045
+fan08        python tools/offline_sim.py --levels easy,normal,hard,veryhard --seeds 20 --strategies fast,safe --fan_scale 0.8
+fan07        python tools/offline_sim.py --levels veryhard,hard --seeds 20 --strategies fast,safe --fan_scale 0.7
+extreme      python tools/offline_sim.py --levels veryhard --seeds 20 --strategies fast,safe --bias 0.03 --noise 0.156 --dist 0.02
+nowrench     python tools/offline_sim.py --levels easy,normal,hard,veryhard --seeds 10 --strategies fast --ignore_user_wrench
+delay05      python tools/offline_sim.py --levels easy,normal,hard,veryhard --seeds 20 --strategies fast,safe --delay 0.5
+# user_template.py MD5 (final v3) = f2eb3cb5c56d61ba500536671561d8c7. The stress-scenario parameters of
+# after_v2_20okt were not recorded; they were reconstructed here and confirmed by an exact per-run match.
+# Per-run comparison with after_v2_20okt: compare_v2_v3.txt (1020/1020 runs identical).

@@ -1,0 +1,80 @@
+... logging to /tmp/share/logs/latest/user_programs_logs/ros/c240dfbc-cf0c-11f1-9ab2-0e8ac13f9f6d/roslaunch-ae855d6b2346-780.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/users/catkin_ws/src/krpc_user/launch/krpc_user.launch
+[1mstarted roslaunch server http://krpc-user:38403/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /krpc_api_node/checkpoint_source_path: /tmp/share/logs/l...
+ * /platform_launch/camera_left: False
+ * /platform_launch/camera_right: False
+ * /platform_launch/ctl_only: True
+ * /platform_launch/fsm: True
+ * /platform_launch/sensor_fusion: True
+ * /platform_launch/slam_wrapper: True
+ * /rosdistro: melodic
+ * /rosversion: 1.14.13
+
+NODES
+  /
+    krpc_api_node (krpc_api_server/krpc_api_node.py)
+    krpc_user (krpc_user/user_template.py)
+
+[1mROS_MASTER_URI=http://krpc:11311[0m
+]2;/users/catkin_ws/src/krpc_user/launch/krpc_user.launch http://krpc:11311
+[1mprocess[krpc_api_node-1]: started with pid [797][0m
+[1mprocess[krpc_user-2]: started with pid [804][0m
+[INFO] [/krpc_api_node] [1792779370.358018, 0.000000]: checkpoint source path (parameter): /tmp/share/logs/latest/cheat_sheet.json
+[INFO] [/krpc_api_node] [1792779370.471364, 38.679000]: KrpcApiNode initialized (sim mode)
+[INFO] [/krpc_api_node] [1792779370.502733, 38.688000]: KrpcApiNode started
+[INFO] [/krpc_user] [1792779377.176853, 39.475000]: start id: 0
+[INFO] [/krpc_api_node] [1792779377.249624, 39.482000]: mission_start
+[INFO] [/krpc_api_node] [1792779377.271650, 39.482000]: /gs/data: {"status": "Mission Start"}
+[INFO] [/krpc_api_node] [1792779377.362863, 39.494000]: get_checkpoints
+[INFO] [/krpc_user] [1792779377.379864, 39.496000]: [GaneshaOrbit] checkpoints: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] goal=12 mode=fast
+[INFO] [/krpc_user] [1792779377.568432, 39.515000]: [GaneshaOrbit] plan t=0.0s order=[9, 8, 10, 11, 5, 4, 3, 2, 6, 1, 7] modes=['fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast', 'fast'] route=190.2s full=190.2s dropped=[]
+[INFO] [/krpc_user] [1792779377.587870, 39.516000]: [GaneshaOrbit] leg -> cp 9 (fast) profile 21.8s predicted 21.0s, elapsed 0.0s, eta_t=0.75 eta_r=0.20
+[WARN] [/krpc_user] [1792779388.109620, 41.354000]: [GaneshaOrbit] FAST profile softened (fault: tracking error pos=0.177m att=126.6deg): eta_t=0.39 eta_r=0.28
+[INFO] [/krpc_user] [1792779388.148508, 41.357000]: [GaneshaOrbit] leg -> cp 9 (fast) profile 25.4s predicted 24.2s, elapsed 1.9s, eta_t=0.53 eta_r=0.14
+[WARN] [/krpc_user] [1792779401.840489, 43.379000]: [GaneshaOrbit] FAST profile softened (fault: tracking error pos=0.165m att=93.6deg): eta_t=0.30 eta_r=0.22
+[INFO] [/krpc_user] [1792779401.860798, 43.384000]: [GaneshaOrbit] leg -> cp 9 (fast) profile 28.5s predicted 26.8s, elapsed 3.9s, eta_t=0.41 eta_r=0.11
+[WARN] [/krpc_user] [1792779412.585816, 45.755000]: [GaneshaOrbit] switching to SAFE mode (onboard ctl): tracking error pos=0.154m att=52.5deg
+[INFO] [/krpc_user] [1792779412.609311, 45.757000]: [GaneshaOrbit] leg -> cp 9 (combined) predicted 38.2s, elapsed 6.3s
+[INFO] [/krpc_api_node] [1792779662.678725, 81.913000]: checkpoint_passed start: 9
+[INFO] [/krpc_api_node] [1792779662.697537, 81.917000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 9}
+[INFO] [/krpc_user] [1792779662.716890, 81.918000]: [GaneshaOrbit] REPORT cp 9 level=3 dist=0.014 cen=2.0 roll=1.8 t=42.4s (Lv3 held)
+[INFO] [/krpc_user] [1792779666.270117, 82.392000]: [GaneshaOrbit] plan t=42.9s order=[6, 1, 7, 8, 4, 3, 2] modes=['combined', 'combined', 'combined', 'combined', 'combined', 'combined', 'combined'] route=238.2s full=324.7s dropped=[5, 10, 11]
+[INFO] [/krpc_user] [1792779666.307419, 82.409000]: [GaneshaOrbit] leg -> cp 6 (combined) predicted 28.0s, elapsed 42.9s
+[INFO] [/krpc_api_node] [1792779849.455983, 108.073000]: checkpoint_passed start: 6
+[INFO] [/krpc_api_node] [1792779849.475767, 108.076000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 6}
+[INFO] [/krpc_user] [1792779849.614797, 108.101000]: [GaneshaOrbit] REPORT cp 6 level=3 dist=0.012 cen=1.2 roll=0.0 t=68.6s (Lv3 held)
+[INFO] [/krpc_user] [1792779852.567524, 108.565000]: [GaneshaOrbit] plan t=69.1s order=[1, 7, 8, 4, 3, 2] modes=['combined', 'combined', 'combined', 'combined', 'combined', 'combined'] route=210.4s full=296.9s dropped=[5, 10, 11]
+[INFO] [/krpc_user] [1792779852.596811, 108.569000]: [GaneshaOrbit] leg -> cp 1 (combined) predicted 25.3s, elapsed 69.1s
+[INFO] [/krpc_api_node] [1792780000.993469, 131.885000]: checkpoint_passed start: 1
+[INFO] [/krpc_api_node] [1792780001.021426, 131.888000]: /gs/data: {"status": "CheckPointPassed", "checkpoint_id": 1}
+[INFO] [/krpc_user] [1792780001.061541, 131.888000]: [GaneshaOrbit] REPORT cp 1 level=3 dist=0.013 cen=2.0 roll=1.9 t=92.4s (Lv3 held)
+[INFO] [/krpc_user] [1792780004.444666, 132.514000]: [GaneshaOrbit] plan t=93.0s order=[7, 8, 4, 3, 2] modes=['combined', 'combined', 'combined', 'combined', 'combined'] route=184.9s full=271.4s dropped=[5, 10, 11]
+[INFO] [/krpc_user] [1792780004.513232, 132.524000]: [GaneshaOrbit] leg -> cp 7 (combined) predicted 23.7s, elapsed 93.0s
+[WARN] [/krpc_user] [1792780032.306442, 136.378000]: [GaneshaOrbit] SAFE STOP (/ib2_user/stop): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+[INFO] [/krpc_api_node] [1792780032.425721, 136.389000]: mission_finished
+[INFO] [/krpc_api_node] [1792780032.526801, 136.408000]: /gs/data: {"status": "Mission Finish"}
+[INFO] [/krpc_user] [1792780032.584204, 136.417000]: [GaneshaOrbit] mission_finished sent at t=96.93s (ok=True)
+[WARN] [/krpc_user] [1792780032.614500, 136.420000]: [GaneshaOrbit] SAFE STOP (mission finished): FAST off -> zero wrench x3 -> ctl KEEP_POSE
+[WARN] [/krpc_user] [1792780037.267296, 137.429000]: [GaneshaOrbit] safe stop: ctl did not confirm KEEP_POSE (cancel sent=False)
+[INFO] [/krpc_user] [1792780037.304918, 137.436000]: finish processing
+shutdown request: user request
+[WARN] [/krpc_user] [1792780044.707004, 138.036000]: [GaneshaOrbit] safe stop: ctl did not confirm KEEP_POSE (cancel sent=False)
+[INFO] [/krpc_user] [1792780044.733138, 138.036000]: [GaneshaOrbit] SUMMARY time=98.6s reported=3 levels=[3, 3, 3]
+[INFO] [/krpc_user] [1792780044.760584, 138.036000]: [GaneshaOrbit]   leg cp9   fast         pred=  21.0s actual=   1.8s level=0
+[INFO] [/krpc_user] [1792780044.776104, 138.036000]: [GaneshaOrbit]   leg cp9   fast         pred=  24.2s actual=   2.0s level=0
+[INFO] [/krpc_user] [1792780044.791893, 138.036000]: [GaneshaOrbit]   leg cp9   fast         pred=  26.8s actual=   2.4s level=0
+[INFO] [/krpc_user] [1792780044.835977, 138.036000]: [GaneshaOrbit]   leg cp9   combined     pred=  38.2s actual=  36.6s level=3
+[INFO] [/krpc_user] [1792780044.851633, 138.036000]: [GaneshaOrbit]   leg cp6   combined     pred=  28.0s actual=  26.1s level=3
+[INFO] [/krpc_user] [1792780044.867127, 138.036000]: [GaneshaOrbit]   leg cp1   combined     pred=  25.3s actual=  23.9s level=3
+[INFO] [/krpc_user] [1792780044.882406, 138.036000]: [GaneshaOrbit]   leg cp7   combined     pred=  23.7s actual=   3.9s level=0
+[1m[krpc_user-2] process has finished cleanly
+log file: /tmp/share/logs/latest/user_programs_logs/ros/c240dfbc-cf0c-11f1-9ab2-0e8ac13f9f6d/krpc_user-2*.log[0m

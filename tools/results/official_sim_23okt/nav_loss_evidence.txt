@@ -1,0 +1,31 @@
+Nav loss in normal_v3_fast and hard_v3_fast (first attempts), 23 Oct 2026.
+Bag analysis with bag_nav.py (run inside krpc/intball-simulator:latest) on share/logs/<ts>/simulation.bag
+(bags not copied to the repo: 20261023014300 = normal run 1, 20261023014530 = hard run 1).
+
+normal run 1 (bag 20261023014300):
+  last /sensor_fusion/navigation  stamp 33.961 (bag t 34.081)   pos (3.279, 0.171, 0.573), v 0.19 m/s
+  last /nav/true/navigation       stamp 34.082                  <- ground truth from the same Gazebo nav plugin also stops
+  last /clock 46.693, last /ctl/status 46.601                   <- simulator clock and ctl keep running
+  no nav gap > 0.3 s before the stop; nav never resumes
+  system.log: ctl "Navigation message timed out" from 43.96 s onward (every new ctl goal -> setPreempted)
+hard run 1 (bag 20261023014530):
+  last /sensor_fusion/navigation  stamp 159.256, last /nav/true/navigation 159.415
+  last /clock 171.792, last /ctl/status 171.701; nav never resumes
+
+Cause: the Gazebo nav plugin (platform_sim/simulation/plugins/nav/src/nav.cpp) re-arms a one-shot ros::Timer in every
+navCallBack; when that timer stops firing, BOTH /nav/true/navigation and /sensor_fusion/navigation stop for good.
+Not caused by user code (the plugin has no input from us besides physics). Coincides with host CPU at ~100%
+(other workloads on the laptop; see host_cpu_during_veryhard_seed2.log) and a low real-time factor
+(normal run 1: 36 s wall for 21 s sim; hard run 1 cp5 leg: 67 s wall for 25 s sim; VH run 1: RTF ~0.84).
+Re-runs (normal_v3_fast_run2, hard_v3_fast_run2) and veryhard_v3_fast_seed2 under the same host load did not lose nav.
+
+Program reaction (v3): FAST fault "navigation stale" -> one softened FAST retry (stale at once) -> SAFE mode ->
+ctl answers every goal with PREEMPTED (no valid nav) -> remaining checkpoints skipped without reporting (never a FAIL)
+-> mission_finished -> SAFE STOP. With permanently dead nav nothing can move the robot, so finishing early is the
+score-optimal choice (keeps the reported Lv3 points and maximizes the time multiplier). The suffix
+"(robot did not respond to /ctl/wrench)" in the log is misleading: the retry resets the leg start pose, so
+"did not move" is trivially true.
+
+hard_v3_fast_run2, leg cp2 (+10.5 s vs prediction): REPORT logged at sim 131.59, the official krpc_api_node published
+CheckPointPassed only at 139.40 and our next plan at 139.41 -> both processes of the krpc-user container were frozen
+~7.8 s sim time (host starvation), not a program wait.

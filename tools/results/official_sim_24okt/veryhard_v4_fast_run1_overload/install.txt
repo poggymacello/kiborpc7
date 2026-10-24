@@ -1,0 +1,3 @@
+57137a4c2b45df964e3cec508589b307  /u/catkin_ws/src/krpc_user/scripts/user_template.py
+92:    "MOTION_MODE": "fast",
+1093:        self.mode = self.cfg["MOTION_MODE"]

@@ -1,0 +1,7 @@
+ROS adapter: all code paths OK (7 log lines, 8 wrench msgs, threads 1)
+ROS crash path: FAST off -> 3x zero wrench -> KEEP_POSE -> 1x mission_finished: OK
+ROS /ib2_user/stop: same safe stop, response SUCCESS, mission thread finishes once: OK
+ROS deadline watchdog: hung mission -> safe stop + 1x mission_finished before T_LIMIT: OK
+ROS /ib2_user/stop before start: no ctl goal, no wrench: OK
+ROS adapter: ALL 5 CHECKS PASSED
+exit=0
